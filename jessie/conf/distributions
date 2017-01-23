@@ -1,0 +1,8 @@
+Origin: ewelot-astro
+Label: ewelot astro packages on github
+Suite: stable
+Codename: jessie
+Architectures: amd64
+Components: main
+Description: Debian packages of software for astronomical image reduction
+ hosted on ewelots github repository

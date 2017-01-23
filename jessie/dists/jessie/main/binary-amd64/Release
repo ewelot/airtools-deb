@@ -1,0 +1,7 @@
+Archive: stable
+Component: main
+Origin: ewelot-astro
+Label: ewelot astro packages on github
+Architecture: amd64
+Description: Debian packages of software for astronomical image reduction
+hosted on ewelots github repository
