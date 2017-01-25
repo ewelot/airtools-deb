@@ -22,7 +22,7 @@ dist=\$(lsb_release -s -c)
 repo=airtools-deb
 url=https://github.com/ewelot/\$repo.git/trunk/\$dist
 ddir=/usr/local/share/\$repo
-test ! -d $ddir && mkdir -p \$ddir
+test ! -d \$ddir && mkdir -p \$ddir
 apt-get update
 apt-get -y install subversion
 (cd \$ddir && svn export \$opts \$url)
