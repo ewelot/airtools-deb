@@ -24,11 +24,11 @@ url=https://github.com/ewelot/\$repo.git/trunk/\$dist
 ddir=/usr/local/share/\$repo
 test ! -d \$ddir && mkdir -p \$ddir
 apt-get update
-apt-get -y install subversion
-(cd \$ddir && svn export \$opts \$url)
+apt-get -y install subversion apt-utils
+(cd \$ddir && svn export \$url/main)
 # add local package repository
-echo "deb file://\$ddir/\$dist ./" >> /etc/apt/sources.list
-apt-get update
+echo "deb file://\$ddir/\$dist main/" > /etc/apt/sources.list.d/airtools.list
+apt-get update  
 EOF
 ```
 
