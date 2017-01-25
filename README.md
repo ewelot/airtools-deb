@@ -21,14 +21,13 @@ dist=\$(lsb_release -s -c)
 # download packages
 repo=airtools-deb
 url=https://github.com/ewelot/\$repo.git
-ddir=/usr/local/share/deb
-rdir=\$ddir/\$dist/\$repo
-test ! -d \$rdir && mkdir -p \$rdir
+ddir=/usr/local/share/deb/\$repo/\$dist
+test ! -d \$ddir && mkdir -p \$ddir
 apt-get update
 apt-get -y install subversion
-(cd \$rdir && svn export \$url/trunk/\$dist/main)
+(cd \$ddir && svn export \$url/trunk/\$dist/main)
 # add local package repository
-echo "deb file://\$ddir/\$dist \$repo/main/" > /etc/apt/sources.list.d/\$repo.list
+echo "deb file://\$ddir main/" > /etc/apt/sources.list.d/\$repo.list
 apt-get update  
 EOF
 ```
