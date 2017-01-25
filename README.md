@@ -14,20 +14,20 @@ Open a terminal window.
 Create temporary script file /tmp/script.sh (copy and paste the following code
 block into the terminal window):
 ```
-cat <<EOF > /tmp/script.sh
 #!/bin/bash
 # determine codename of your distribution
 dist=\$(lsb_release -s -c)
 # download packages
 repo=airtools-deb
-url=https://github.com/ewelot/\$repo.git/trunk/\$dist
-ddir=/usr/local/share/\$repo
-test ! -d \$ddir && mkdir -p \$ddir
+url=https://github.com/ewelot/\$repo.git
+ddir=/usr/local/share/deb
+rdir=\$ddir/\$dist/\$repo
+test ! -d \$rdir && mkdir -p \$rdir
 apt-get update
-apt-get -y install subversion apt-utils
-(cd \$ddir && svn export \$url/main)
+apt-get -y install subversion
+(cd \$rdir && svn export $opts \$url/trunk/\$dist/main)
 # add local package repository
-echo "deb file://\$ddir/\$dist main/" > /etc/apt/sources.list.d/airtools.list
+echo "deb file://\$ddir/\$dist \$repo/main/" > /etc/apt/sources.list.d/\$repo.list
 apt-get update  
 EOF
 ```
