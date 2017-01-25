@@ -1,5 +1,6 @@
 # airtools-deb
-Debian package repository related to [AIRTOOLS](https://github.com/ewelot/airtools) (Astronomical Image Reduction TOOLSet)  
+Debian package repository related to [AIRTOOLS](https://github.com/ewelot/airtools)
+(Astronomical Image Reduction TOOLSet)  
 
 The repository contains 64bit binary packages for the following Linux distributions:  
   - Debian 8 "Jessie"  
@@ -7,15 +8,36 @@ The repository contains 64bit binary packages for the following Linux distributi
 
 
 ## Howto install packages from this repository
+
+Open a terminal window.
+
+Create temporary script file /tmp/script.sh (copy and paste the following code
+block into the terminal window):
 ```
+cat <<EOF > /tmp/script.sh
+#!/bin/bash
 # determine codename of your distribution
-dist=$(lsb_release -s -c)
-# add package repository
-url=https://raw.githubusercontent.com/ewelot/airtools-deb
-echo "deb $url/$dist $dist main" | sudo tee -a /etc/apt/sources.list
-sudo apt-get install apt-transport-https
-sudo apt-get update  
-# install airtools and all dependent software
-sudo apt-get install airtools
+dist=\$(lsb_release -s -c)
+# download packages
+repo=airtools-deb
+url=https://github.com/ewelot/\$repo.git/trunk/\$dist
+ddir=/usr/local/share/\$repo
+test ! -d $ddir && mkdir -p \$ddir
+apt-get update
+apt-get -y install subversion
+(cd \$ddir && svn export \$opts \$url)
+# add local package repository
+echo "deb file://\$ddir/\$dist ./" >> /etc/apt/sources.list
+apt-get update
+EOF
 ```
 
+Get local copy of package repository by executing the script:
+```
+sudo bash /tmp/script.sh
+```
+
+Install airtools and all dependent software:
+```
+sudo apt-get -y --allow-unauthenticated install airtools
+```
