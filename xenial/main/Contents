@@ -45,7 +45,6 @@ usr/share/doc/airtools-doc/images/splash.png		    airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_images.png	    airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_param.png	    airtools-doc
 usr/share/doc/airtools-doc/manual-de.html		    airtools-doc
-usr/share/doc/airtools-doc/manual-de.md			    airtools-doc
 usr/share/doc/airtools/README.dcraw-tl			    airtools
 usr/share/doc/airtools/README.md			    airtools
 usr/share/doc/airtools/changelog.Debian.gz		    airtools

@@ -1,3 +1,101 @@
+Package: swarp
+Priority: optional
+Section: science
+Installed-Size: 447
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 2.38.0+dfsg-3.1
+Depends: libc6 (>= 2.14)
+Filename: main/swarp_2.38.0+dfsg-3.1_amd64.deb
+Size: 155246
+MD5sum: 155afccfb3d96ed6b0578d5b86c4d591
+SHA1: 6716a18e807db2d8b55f0bf011ecd599f4ecd661
+SHA256: 265b85282a4590f12c0730d1e7423ff6e1227a81837a6ffa54bd0048d5b88f99
+SHA512: c1dae479cdf643f1ad2e0f490f28c0b55d9db758d9fea8e6ead73469f0c7ad2cdb0556f00c7df197923ca305c3b19e82dd3cc121a697749b7595817126f0e94b
+Description: Resample and co-add together FITS images
+ Resample and co-add together FITS images using any arbitrary astrometric
+ projection defined in the WCS standard. The main features of SWarp
+ are:
+ .
+  * FITS format (including multi-extensions) in input and output,
+  * Full handling of weight-maps in input and output,
+  * Ability to work with very large images (up to 500 Mpixels on
+    32-bit machines and 10^6 Tpixels with 64-bits), thanks to customized
+    virtual-memory-mapping and buffering,
+  * Works with arrays in up to 9 dimensions (including or not two spherical
+    coordinates),
+  * Selectable high-order interpolation method (up to 8-tap filters) in any
+    dimension,
+  * Compatible with WCS and TNX (IRAF) astrometric descriptions,
+  * Support for equatorial, galactic and equatorial coordinate systems,
+  * Astrometric and photometric parameters are read from FITS headers or
+    external ASCIIfiles,
+  * Built-in background subtraction,
+  * Built-in noise-level measurement for automatic weighting,
+  * Automatic centering and sizing functions of the output field,
+  * Multi-threaded code with load-balancing to take advantageof multiple
+    processors.
+  * XML VOTable-compliant output of meta-data.
+Homepage: http://www.astromatic.net/software/swarp
+
+Package: scamp
+Priority: optional
+Section: science
+Installed-Size: 899
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Architecture: amd64
+Version: 2.2.6-1
+Depends: curl, libatlas3-base, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libfftw3-single3, libplplot12 (>= 5.10.0+dfsg2)
+Filename: main/scamp_2.2.6-1_amd64.deb
+Size: 243168
+MD5sum: ed1b2f3adbaf9b5d35654d2367a17121
+SHA1: 3aeb6fd9fdb899b6038a22aef0ec25f36236c298
+SHA256: 3e4f0dbb94dedb82ed0c75ac57a14d9ff911662de3411bba7cc770a313e99d4e
+SHA512: cd94f2c3838fa05e48eaafcb587d40d6830f333b1f6982f7391bb9f75296813a867aa3a5fb2e73b60e1e3f827a3b121f5248c18d19902ee9fccc669a3b3a1b90
+Description: Compute astrometric and photometric solutions
+ SCAMP reads SExtractor catalogs and computes astrometric and
+ photometric solutions for any arbitrary sequence of FITS images in a
+ completely automatic way.
+Homepage: http://www.astromatic.net/software/scamp
+
+Package: skymaker
+Priority: optional
+Section: science
+Installed-Size: 371
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Architecture: amd64
+Version: 3.12.2-1
+Depends: libc6 (>= 2.14), libfftw3-single3
+Filename: main/skymaker_3.12.2-1_amd64.deb
+Size: 121360
+MD5sum: c04619e157df200fea2c271fd0862a21
+SHA1: 4df18154a852e9f539c05259642cfaf761144dfc
+SHA256: 034e967328eb81da6bccc5e5487e1282275693c2f1074a4f58f773490ff5689a
+SHA512: b31d8538dc44c6052dd5d6a9bba893f6f0b865c7c767bb300d873a37253e66d72bbf277537a7b130146768b5b94cec8c04b9c3f4e153c173552133d08a9f0567
+Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
+Homepage: http://astromatic.net/software/skymaker
+
+Package: airtools
+Priority: optional
+Section: science
+Installed-Size: 13
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Architecture: amd64
+Version: 2.0-2
+Depends: airtools-core, airtools-doc, cfitsio-examples, saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
+Filename: main/airtools_2.0-2_amd64.deb
+Size: 3660
+MD5sum: 8db7d3e7bcea6049a849c7693078a08a
+SHA1: a77002d4e074249cec155911edbb1b68d5258663
+SHA256: 0303db528885647d025da5648bec2f941ff3d8ef2031f78ce4b15c55c9a045f3
+SHA512: df9d112e4dbe9640a8763e3ec39f9d7b117ddae50ea5b1375b9f715591df4b6f632fbedcf86e83e53514c93befe5c21a4216fbe95c616e048853894c39c34a0f
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+Homepage: https://github.com/ewelot/airtools
+
 Package: missfits
 Priority: optional
 Section: science
@@ -71,6 +169,25 @@ Description: Source extractor for astronomical images
  between galaxies and stars using a neural-network technique.
 Homepage: http://www.astromatic.net/software/sextractor
 
+Package: cfitsio-examples
+Priority: optional
+Section: science
+Installed-Size: 71
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Architecture: amd64
+Version: 0.1-1
+Depends: libc6 (>= 2.4), libcfitsio2 (>= 3.370)
+Filename: main/cfitsio-examples_0.1-1_amd64.deb
+Size: 11884
+MD5sum: b9425bf31a8ca4652b287752cc3492e2
+SHA1: 07b6a0c32db3fe8172377936b7d273acebffbf19
+SHA256: e320e552127aa7114eb39e9275ef0910b9a515f4b0f68f8fa9b341a391e02fac
+SHA512: c1b47e34877f146437ffd506ed70114827003b5cc56d357f898d9fb85018b1ba261e694a575c351b8acf216b5b9d9377ed484a86942c7ec59f4305b6d0b0214c
+Description: CFITSIO based example programs
+ This package contains selected programs from cexamples.tar: fitscopy, imarith,
+ imcopy, imlist and listhead.
+Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
+
 Package: airtools-core
 Priority: optional
 Section: science
@@ -100,17 +217,17 @@ Homepage: https://github.com/ewelot/airtools
 Package: airtools-doc
 Priority: optional
 Section: doc
-Installed-Size: 1572
+Installed-Size: 1573
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
 Architecture: all
 Source: airtools
 Version: 2.0-2
 Filename: main/airtools-doc_2.0-2_all.deb
-Size: 1485538
-MD5sum: f83c92d67ab3a73106f5e0725688777f
-SHA1: 572cab8f0c471e7b8aad5510c351f69c522238a4
-SHA256: 04704d879a992e7ddc8ba967ad6da1c320c5c3a137b66656ee54d8bed64b269a
-SHA512: ed8d87d49ced597ec4dfb820bb26c272f0d592ed36a94526d99211c286db07a12f3485c53231565be55189005abc94257d4c2275b4fb4226183e0195f698e1fc
+Size: 1485608
+MD5sum: dfb8cfb22e4618b1bc2528c662a94d45
+SHA1: 2d7c52b2e9415d361411c8133285ff4a546119c5
+SHA256: 5316a5940beefbd2d8848a1dca7826d6791d0f2474e81238545cd6b22a5565fb
+SHA512: 8f3daa116494113e7a07fe1946f5f6bf2287dd29853bef867a4c3f52e3fd4f47b3db07053a0be069b80e188e2d44747f1dff51c9f3e1536f6997f5e8a40d6ffa
 Description: Astronomical Image Reduction TOOLSet - Documentation
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
  of both CCD and DSLR observations on Linux. The main tasks are implemented as
@@ -144,191 +261,4 @@ Description: Starlink Tables Infrastructure Library Tool Set
  The package is robust, fully documented, and designed for efficiency,
  especially with very large datasets.
 Homepage: http://www.star.bristol.ac.uk/~mbt/stilts/
-
-Package: airtools-core
-Priority: optional
-Section: science
-Installed-Size: 1196
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: amd64
-Source: airtools
-Version: 2.0-1
-Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo, exiftool, curl, wget, gawk, yad, xpa-tools, wcstools, libc6 (>= 2.14), libjasper1, libjpeg8 (>= 8c), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_2.0-1_amd64.deb
-Size: 336148
-MD5sum: 6e9ed106b2f54c1bc72c63ef7dd46791
-SHA1: 9d578472564a4579d621b8f7c6337e809de4297e
-SHA256: ed50dcffa538c2ae1658efb431f460325b2929468c30d22b5b94b6ddccb25ca3
-SHA512: a0c93ad221bb711780fca0ff1c2cdc8207cd634f918203ca89c616ba4554679f646bbbc08ee4421e81bb99612db89fec3768deadd2de0ba0f7a1811a8ef9ef84
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-Homepage: https://github.com/ewelot/airtools
-
-Package: airtools-doc
-Priority: optional
-Section: doc
-Installed-Size: 37
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: all
-Source: airtools
-Version: 2.0-1
-Filename: main/airtools-doc_2.0-1_all.deb
-Size: 12806
-MD5sum: 8f84463f2245cd0acf288545828e98ac
-SHA1: f4692012715b8d77f518ef16b535bdc029f57966
-SHA256: 1308c48d870e0b0b016ea4e9f51e92acba38a73dc6616b9fd7a550c20885364b
-SHA512: c238b94f1a791233f63ea98280ec05b83645886917d7684448cb1b20b85bb2238e98e23f76af53ab520e32dfab70a27b6ff6db730664b4af379f6b2a7aa335ea
-Description: Astronomical Image Reduction TOOLSet - Documentation
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package contains some user documentation.
-Homepage: https://github.com/ewelot/airtools
-
-Package: airtools
-Priority: optional
-Section: science
-Installed-Size: 13
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: amd64
-Version: 2.0-2
-Depends: airtools-core, airtools-doc, cfitsio-examples, saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
-Filename: main/airtools_2.0-2_amd64.deb
-Size: 3660
-MD5sum: 8db7d3e7bcea6049a849c7693078a08a
-SHA1: a77002d4e074249cec155911edbb1b68d5258663
-SHA256: 0303db528885647d025da5648bec2f941ff3d8ef2031f78ce4b15c55c9a045f3
-SHA512: df9d112e4dbe9640a8763e3ec39f9d7b117ddae50ea5b1375b9f715591df4b6f632fbedcf86e83e53514c93befe5c21a4216fbe95c616e048853894c39c34a0f
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-Homepage: https://github.com/ewelot/airtools
-
-Package: swarp
-Priority: optional
-Section: science
-Installed-Size: 447
-Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Version: 2.38.0+dfsg-3.1
-Depends: libc6 (>= 2.14)
-Filename: main/swarp_2.38.0+dfsg-3.1_amd64.deb
-Size: 155246
-MD5sum: 155afccfb3d96ed6b0578d5b86c4d591
-SHA1: 6716a18e807db2d8b55f0bf011ecd599f4ecd661
-SHA256: 265b85282a4590f12c0730d1e7423ff6e1227a81837a6ffa54bd0048d5b88f99
-SHA512: c1dae479cdf643f1ad2e0f490f28c0b55d9db758d9fea8e6ead73469f0c7ad2cdb0556f00c7df197923ca305c3b19e82dd3cc121a697749b7595817126f0e94b
-Description: Resample and co-add together FITS images
- Resample and co-add together FITS images using any arbitrary astrometric
- projection defined in the WCS standard. The main features of SWarp
- are:
- .
-  * FITS format (including multi-extensions) in input and output,
-  * Full handling of weight-maps in input and output,
-  * Ability to work with very large images (up to 500 Mpixels on
-    32-bit machines and 10^6 Tpixels with 64-bits), thanks to customized
-    virtual-memory-mapping and buffering,
-  * Works with arrays in up to 9 dimensions (including or not two spherical
-    coordinates),
-  * Selectable high-order interpolation method (up to 8-tap filters) in any
-    dimension,
-  * Compatible with WCS and TNX (IRAF) astrometric descriptions,
-  * Support for equatorial, galactic and equatorial coordinate systems,
-  * Astrometric and photometric parameters are read from FITS headers or
-    external ASCIIfiles,
-  * Built-in background subtraction,
-  * Built-in noise-level measurement for automatic weighting,
-  * Automatic centering and sizing functions of the output field,
-  * Multi-threaded code with load-balancing to take advantageof multiple
-    processors.
-  * XML VOTable-compliant output of meta-data.
-Homepage: http://www.astromatic.net/software/swarp
-
-Package: airtools
-Priority: optional
-Section: science
-Installed-Size: 13
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: amd64
-Version: 2.0-1
-Depends: airtools-core, airtools-doc, cfitsio-examples, saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
-Filename: main/airtools_2.0-1_amd64.deb
-Size: 3600
-MD5sum: 6679731caa450c6ea99cca19a0549abe
-SHA1: 27b0f9364264139df9e7f165e72326efa5c2ab95
-SHA256: 714b380d6214a80e55ca5b6844501d3a0e46be9a40768ef3f994001311407413
-SHA512: 851fde91e4bc8658ffe86c45431e2b1d187d20057b58b33fd381f98e8db40147aa91b996f2a2abd64ad3c7e92d586b3592981df87fd84862aade9ed068a3e786
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-Homepage: https://github.com/ewelot/airtools
-
-Package: skymaker
-Priority: optional
-Section: science
-Installed-Size: 371
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: amd64
-Version: 3.12.2-1
-Depends: libc6 (>= 2.14), libfftw3-single3
-Filename: main/skymaker_3.12.2-1_amd64.deb
-Size: 121360
-MD5sum: c04619e157df200fea2c271fd0862a21
-SHA1: 4df18154a852e9f539c05259642cfaf761144dfc
-SHA256: 034e967328eb81da6bccc5e5487e1282275693c2f1074a4f58f773490ff5689a
-SHA512: b31d8538dc44c6052dd5d6a9bba893f6f0b865c7c767bb300d873a37253e66d72bbf277537a7b130146768b5b94cec8c04b9c3f4e153c173552133d08a9f0567
-Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
-Homepage: http://astromatic.net/software/skymaker
-
-Package: cfitsio-examples
-Priority: optional
-Section: science
-Installed-Size: 71
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Architecture: amd64
-Version: 0.1-1
-Depends: libc6 (>= 2.4), libcfitsio2 (>= 3.370)
-Filename: main/cfitsio-examples_0.1-1_amd64.deb
-Size: 11884
-MD5sum: b9425bf31a8ca4652b287752cc3492e2
-SHA1: 07b6a0c32db3fe8172377936b7d273acebffbf19
-SHA256: e320e552127aa7114eb39e9275ef0910b9a515f4b0f68f8fa9b341a391e02fac
-SHA512: c1b47e34877f146437ffd506ed70114827003b5cc56d357f898d9fb85018b1ba261e694a575c351b8acf216b5b9d9377ed484a86942c7ec59f4305b6d0b0214c
-Description: CFITSIO based example programs
- This package contains selected programs from cexamples.tar: fitscopy, imarith,
- imcopy, imlist and listhead.
-Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
-
-Package: scamp
-Priority: optional
-Section: science
-Installed-Size: 899
-Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
-Architecture: amd64
-Version: 2.2.6-1
-Depends: curl, libatlas3-base, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libfftw3-single3, libplplot12 (>= 5.10.0+dfsg2)
-Filename: main/scamp_2.2.6-1_amd64.deb
-Size: 243168
-MD5sum: ed1b2f3adbaf9b5d35654d2367a17121
-SHA1: 3aeb6fd9fdb899b6038a22aef0ec25f36236c298
-SHA256: 3e4f0dbb94dedb82ed0c75ac57a14d9ff911662de3411bba7cc770a313e99d4e
-SHA512: cd94f2c3838fa05e48eaafcb587d40d6830f333b1f6982f7391bb9f75296813a867aa3a5fb2e73b60e1e3f827a3b121f5248c18d19902ee9fccc669a3b3a1b90
-Description: Compute astrometric and photometric solutions
- SCAMP reads SExtractor catalogs and computes astrometric and
- photometric solutions for any arbitrary sequence of FITS images in a
- completely automatic way.
-Homepage: http://www.astromatic.net/software/scamp
 
