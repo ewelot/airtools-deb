@@ -1,0 +1,321 @@
+Package: cfitsio-examples
+Architecture: amd64
+Version: 0.2-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 82
+Depends: libc6 (>= 2.2.5), libcfitsio5 (>= 3.390~)
+Filename: main/cfitsio-examples_0.2-1_amd64.deb
+Size: 13442
+MD5sum: f3cfd253e0a3562c6a6874a2270c1d1d
+SHA1: eacb93a39dc11724acf5f36ce6caad11e67db9bf
+SHA256: f914f917c1b000c92a460f66b9ff18c994584e1fc06f8ede4cf21eeff12d21b5
+SHA512: efb5cf4e73ff82ffa4728ffefd519721f4ac84496a213efd80f34e70c613bf8053ab2dee43afae5c5dea8ddc7bb720ac95777a47ca5094efb0e3a0639b932051
+Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
+Description: CFITSIO based example programs
+ This package contains selected programs from cexamples.tar: fitscopy, imarith,
+ imcopy, imlist and listhead.
+
+Package: airtools
+Architecture: amd64
+Version: 2.1-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 13
+Depends: airtools-core, airtools-doc, cfitsio-examples (>= 0.2), saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
+Filename: main/airtools_2.1-1_amd64.deb
+Size: 4110
+MD5sum: d8f0da6dba383ee263daefdcd363c0a1
+SHA1: a818ddf279afca9cf22c245dbafa94f69254f087
+SHA256: 4d409097bc78bbb791888b842b0f286ac684f684748f5a0bced1a54c0a0d4274
+SHA512: 9d1cb4aee44e59314cc792088a5bbcbc6681ecc5839a3e2346bd81bcf0516cd5cdfc1e3de7ab5ad599b16ba87852267a49d41f6713c10ab38cad2c9daf8e2d7f
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+
+Package: cfitsio-examples-dbgsym
+Architecture: amd64
+Version: 0.2-1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: cfitsio-examples
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 51
+Depends: cfitsio-examples (= 0.2-1)
+Filename: main/cfitsio-examples-dbgsym_0.2-1_amd64.deb
+Size: 4540
+MD5sum: 59d0690184193b6196dcd3eca0bcfe9c
+SHA1: 54033f68f5f7501bdf27676e5f7f5ef7faff4105
+SHA256: 758108736e281cda22dcc5ba904ef42674a65dcbb5f45ab212453a42b3feae10
+SHA512: b7ff25a87088114ec04984e1645921980dd781a7f4f0834f176272240f19fe8191d5ebf002ba35cfff4b2b2c4c93c3137b9e76943a710c98361b8c99f2d426e2
+Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
+Description: Debug symbols for cfitsio-examples
+Build-Ids: 3dd87856dd1136553ee573b2ba7a90252f752148 a88910b5b7a1afc7ebd73e63402df03a00116216 c614a4381536093f96c231785fc830f0699ace8d c9e941af46e894f801ebaa15964d03b11e092caf e726e16b1b88d09fb547d5a2370a62c3e5c7a88a fe550fd123a26bc2b8295cf9cabf3d685bedd0a5
+
+Package: airtools-core-dbgsym
+Architecture: amd64
+Version: 2.0.2-3
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 54
+Depends: airtools-core (= 2.0.2-3)
+Filename: main/airtools-core-dbgsym_2.0.2-3_amd64.deb
+Size: 9284
+MD5sum: e2181c13e4732cb7295f12b6e110fd61
+SHA1: bd7a52d4aea11c45df7d587b22c5dfeaadedd52d
+SHA256: c8eeacf24f552e27e3dde75f59b0b4939a5c6479360354d44afa31e0f5f4369e
+SHA512: 27a792548e827c18de2dcd370ac3435dbcc55ef425fd4a96df0b2e306e532cfcffda02246e6a2ec68928eb5b9ece630030dda0b60d37e5111d850f185ea3eaa2
+Homepage: https://github.com/ewelot/airtools
+Description: Debug symbols for airtools-core
+Build-Ids: 2ff5f1c197eeb3c749954a03d1e9490333a78370 7f2803e2b9898f217278c81d3af5894dda07c06d bb8f371ef88c6fee4228f904a5cb457741d4902a dde3401572cd4b80e597a71676f598aad6d0a3f6
+
+Package: airtools-doc
+Architecture: all
+Version: 2.0.2-3
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1573
+Filename: main/airtools-doc_2.0.2-3_all.deb
+Size: 1485884
+MD5sum: c0f4777b71f9f96dc0cffc7ff5b054c9
+SHA1: fe16a3c5b644d7614923370b9429311e96b31998
+SHA256: b456551c55e196330bab78020fe8d4a051b3a2beddb766db79d0bc4fc9636f9a
+SHA512: 785a4367542373d7987853b718ee953b226e26e0e7397bc387fab2d3c0406a6eccd6e7e28931b22923ea8607ec9dbc9f8829f3878a0daf8c99c8e1d95df8d86b
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains some user documentation.
+
+Package: airtools-core
+Architecture: amd64
+Version: 2.0.2-3
+Priority: optional
+Section: science
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1231
+Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo, exiftool, bc, curl, wget, gawk, yad, xpa-tools, wcstools, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_2.0.2-3_amd64.deb
+Size: 347558
+MD5sum: 3a100c8042f970be0670ca4da35d6837
+SHA1: 02c74251497ed688e734e834002ac39461829cd9
+SHA256: 237c22d9fafa0fd07fa57b40fe68ae08617fec96b304ff759ceadbdf25e1c9c1
+SHA512: cfe7709ffa655ce9fb16a72a3f1921d5f02f14de1dfd39e9e1ac307291f6a2a80c43d2dd7ff2457193e9e228044b7cdc6c697fa7396e842982ebb014426303b0
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Core components
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package provides the core components but does not install all required
+ third-party software packages.
+
+Package: skymaker
+Architecture: amd64
+Version: 3.12.2-2
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 383
+Depends: libc6 (>= 2.14), libfftw3-single3 (>= 3.3.5)
+Filename: main/skymaker_3.12.2-2_amd64.deb
+Size: 126018
+MD5sum: 00bdc353d7ca19b2d4e370bab682f2fe
+SHA1: 68b7dad3275c69d5d9a3a7329e7921938ef11436
+SHA256: 70289d5c95c5990f61cc628afe2ea41c85b68593e8743c9c66a30255ff0fa6a8
+SHA512: 254d80b5684396b5afd9d17d95ba7e287de991bff198d857c2a635bab3bc66e04afc958098c2ff36d2b3dec08aa4a838e61f5a2763f34cafc96cfac36f814ef7
+Homepage: http://astromatic.net/software/skymaker
+Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
+
+Package: airtools-doc
+Architecture: all
+Version: 2.1-1
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1573
+Filename: main/airtools-doc_2.1-1_all.deb
+Size: 1485968
+MD5sum: 4a524e3d756ae84186b9f493375e324a
+SHA1: a448dd155d50d724fe7df9e7688272c2dc431f4a
+SHA256: a0c9fae62a6c49bd3e02e87221fbc51743bf40f9e2bdcd1ca3580b0f34fad74f
+SHA512: 3851d9bd1db71e882eebe44b531e9cc106114ee18ccefaf092de815b41c7462629933e44e235dc9435bc77e7d24bd94d0dacf57161bd46945cb5f095cf0f42e9
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains some user documentation.
+
+Package: airtools
+Architecture: amd64
+Version: 2.0.2-3
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 13
+Depends: airtools-core, airtools-doc, cfitsio-examples, saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
+Filename: main/airtools_2.0.2-3_amd64.deb
+Size: 4034
+MD5sum: ee423fda9346b6e7411b1f663e49a74d
+SHA1: 07d3e81b771154c0b839edb160eba714ad6fb9f8
+SHA256: 39e7d543ee032d0686c2d62e55ebe163f5342de18ea370aef918e8d50038755f
+SHA512: 5a6c2bddc161f9fae4d9182ecee48ad1386d477bada5a6d38fec78f419992823355b34b993c343038a35a2f8944b18326f6465baa7a5bc2af745ad7cf6881466
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+
+Package: airtools-core-dbgsym
+Architecture: amd64
+Version: 2.1-1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 61
+Depends: airtools-core (= 2.1-1)
+Filename: main/airtools-core-dbgsym_2.1-1_amd64.deb
+Size: 9768
+MD5sum: 373a44861099af7a6105c2a515584cac
+SHA1: f29ea12466515e187228b484e97e591f8622f5e0
+SHA256: b5721238566227dd7c6f0f1acf76939cc106bf1c16d3fdf07899db974fd9b80b
+SHA512: 5e247db775bde9027164ad94f8956780d2713cc20881e363da577a8e7a6d4c62a07ea2a9787f5dfa4e544f43f13413d690f573943d1b8c70d9f21be3d06ddb93
+Homepage: https://github.com/ewelot/airtools
+Description: Debug symbols for airtools-core
+Build-Ids: 2ff5f1c197eeb3c749954a03d1e9490333a78370 7f2803e2b9898f217278c81d3af5894dda07c06d bb8f371ef88c6fee4228f904a5cb457741d4902a c361a6e23d94da1e78883762e7ced17029cf250f dde3401572cd4b80e597a71676f598aad6d0a3f6
+
+Package: stilts
+Architecture: amd64
+Version: 3.0.9-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 12276
+Depends: default-jre | java-runtime
+Filename: main/stilts_3.0.9-1_amd64.deb
+Size: 11283136
+MD5sum: f6c4ff0f47109c8f275ea89612b5f0ad
+SHA1: aa631b18f76713798882412fe3089287d09b78b3
+SHA256: 218a712a41152ca6e919c37971c5caf96614c4b4f96a9e5356219fb9cbb07992
+SHA512: 8f59ab237f5876430bb34f49fe26d66bd20874dd9f60df9ee5eed29275a034f9e6357f01aff70374fbca2d0b62122c13859b156460fc97a2fb276aa3bcd47e4d
+Homepage: http://www.star.bristol.ac.uk/~mbt/stilts/
+Description: Starlink Tables Infrastructure Library Tool Set
+ The STIL Tool Set is a set of command-line tools based on STIL, the Starlink
+ Tables Infrastructure Library. It deals with the processing of tabular data;
+ the package has been designed for, but is not restricted to, astronomical
+ tables such as object catalogues. Some of the tools are generic and can work
+ with multiple formats (including FITS, VOTable, CDF, GBIN, CSV, SQL and ASCII)
+ and others are specific to the VOTable format.
+ The package is robust, fully documented, and designed for efficiency,
+ especially with very large datasets.
+
+Package: scamp
+Architecture: amd64
+Version: 2.2.6-2
+Priority: optional
+Section: science
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 942
+Depends: curl, libatlas3-base, libc6 (>= 2.14), libcsiro0 (>= 5.10.0+dfsg2), libcurl3-gnutls (>= 7.16.2), libfftw3-single3 (>= 3.3.5), libltdl7 (>= 2.4.6), libplplot12 (>= 5.10.0+dfsg2), libqhull7, libqsastime0 (>= 5.10.0+dfsg2), libshp2 (>= 1.3.0)
+Filename: main/scamp_2.2.6-2_amd64.deb
+Size: 272598
+MD5sum: d1e67c65aa672c2827ab26bae62675df
+SHA1: d56a8a7ea01f3bd815d150fc8016ecb35c4f41bd
+SHA256: b7f1f25fe0ff19320e79032671744a012f4ff9da4c87278e5dfc205b3156c6c3
+SHA512: be46bea5a9907feb8aaa86311d9eb502b85d904cefb1d267077bab284f7c61d737d6ebb612b86b96f537b431a60382bdd2f86b64634d6cb7fdcf4c35d4d0380a
+Homepage: http://www.astromatic.net/software/scamp
+Description: Compute astrometric and photometric solutions
+ SCAMP reads SExtractor catalogs and computes astrometric and
+ photometric solutions for any arbitrary sequence of FITS images in a
+ completely automatic way.
+
+Package: skymaker-dbgsym
+Architecture: amd64
+Version: 3.12.2-2
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: skymaker
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 289
+Depends: skymaker (= 3.12.2-2)
+Filename: main/skymaker-dbgsym_3.12.2-2_amd64.deb
+Size: 263698
+MD5sum: 9a1c1a182cfa9e69a577d496a79bf986
+SHA1: 56f42e81851ecbf6c15c5b76828e546b1288d674
+SHA256: f96f992fa2f606ddfc5de661a70300e1bbc3069d2ec0d3f5e7a0cbb4eb712e21
+SHA512: e13e95835d9f60aece8d95022fdc5ad07305c76632ed822e54bc5e4aa6621c68f6ab84db7b6bbc3a29272e8de07909c5193ec09ec38073d180d05a1d10432a50
+Homepage: http://astromatic.net/software/skymaker
+Description: Debug symbols for skymaker
+Build-Ids: 7434c135896b2e93a95d93817dd4f8b36f090629
+
+Package: airtools-core
+Architecture: amd64
+Version: 2.1-1
+Priority: optional
+Section: science
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1270
+Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo, exiftool, bc, curl, wget, gawk, yad, xpa-tools, wcstools, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_2.1-1_amd64.deb
+Size: 354622
+MD5sum: 5527f98ca2f6e6f229d86bbdd786bb2f
+SHA1: 52760a560e59c38be6522140e584734cf574c3ee
+SHA256: 642d098b2a964df2997dcf05d5821deaa6bdabcdbdfac97e984324b3a1793a7f
+SHA512: def8ba7156d548b14ed9253cd3a840c9d04c0bebd1d7ddab90010feb0d6c39749112da38bbc1ee4a603348cf83a2f515301fdb77f072fed49a32884517fd5b31
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Core components
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package provides the core components but does not install all required
+ third-party software packages.
+
+Package: scamp-dbgsym
+Architecture: amd64
+Version: 2.2.6-2
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: scamp
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 714
+Depends: scamp (= 2.2.6-2)
+Filename: main/scamp-dbgsym_2.2.6-2_amd64.deb
+Size: 667680
+MD5sum: 277fac2c85d18c66249e72e97899de09
+SHA1: 81309af194ed14c1912a2b72d5e4390db0766fdb
+SHA256: 85bb10b30c10cb4cab84ee3a47e7621afbba8989ab3dbf7d08e4188f0cb3ba3b
+SHA512: 556eea2d4bb98848f0b8c39645f69d6471ed16f92c1022a5886253bb421f23ca6e261937dc607db6ac2cc73b93548fb47b6de0d89407c6960ded08dd7800ac89
+Homepage: http://www.astromatic.net/software/scamp
+Description: Debug symbols for scamp
+Build-Ids: 408e8fbea883ee48530eaac12da2a943d1d3e0c8
+

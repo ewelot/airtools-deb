@@ -6,11 +6,13 @@ usr/bin/fitscopy					    cfitsio-examples
 usr/bin/imarith						    cfitsio-examples
 usr/bin/imcopy						    cfitsio-examples
 usr/bin/imlist						    cfitsio-examples
+usr/bin/imstat						    cfitsio-examples
 usr/bin/ldactoasc					    sextractor
 usr/bin/listhead					    cfitsio-examples
 usr/bin/missfits					    missfits
 usr/bin/pnmccdred					    airtools-core
 usr/bin/pnmcombine					    airtools-core
+usr/bin/pnmrowsort					    airtools-core
 usr/bin/pnmtomef					    airtools-core
 usr/bin/scamp						    scamp
 usr/bin/sex						    sextractor
