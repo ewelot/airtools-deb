@@ -2,9 +2,14 @@
 Debian package repository related to [AIRTOOLS](https://github.com/ewelot/airtools)
 (Astronomical Image Reduction TOOLSet)  
 
-The repository contains 64bit binary packages for the following Linux distributions:  
-  - Debian 8 "Jessie"  
-  - Ubuntu 16.04 "Xenial" (and variants like XUbuntu)
+The repository contains 64bit binary packages for the following Linux distributions:
+  - Debian 9 "Stretch"
+  - Debian 8 "Jessie" (discontinued)
+  - Ubuntu 18.04 "Bionic" 
+  - Ubuntu 16.04 "Xenial"
+
+Ubuntu packages were tested on XUbuntu distributions but should work on
+any Ubuntu desktop flavour (e.g. native Ubuntu, KUbuntu, LUbuntu). 
 
 
 ## Howto install binary packages from this repository
