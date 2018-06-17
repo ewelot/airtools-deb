@@ -2,9 +2,7 @@ usr/bin/aircmd.sh					    airtools-core
 usr/bin/airfun.sh					    airtools-core
 usr/bin/airtools_launcher.sh				    airtools-core
 usr/bin/dcraw-tl					    airtools-core
-usr/bin/fitscopy					    cfitsio-examples
 usr/bin/imarith						    cfitsio-examples
-usr/bin/imcopy						    cfitsio-examples
 usr/bin/imlist						    cfitsio-examples
 usr/bin/imstat						    cfitsio-examples
 usr/bin/listhead					    cfitsio-examples
