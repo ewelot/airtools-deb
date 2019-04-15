@@ -1,10 +1,13 @@
 etc/astrometry.cfg					    astrometry.net
 usr/bin/aircmd.sh					    airtools-core
 usr/bin/airfun.sh					    airtools-core
+usr/bin/airtools					    airtools-core
+usr/bin/airtools-cli					    airtools-core
 usr/bin/airtools_launcher.sh				    airtools-core
 usr/bin/an-fitstopnm					    astrometry.net
 usr/bin/an-pnmtofits					    astrometry.net
 usr/bin/astrometry-engine				    astrometry.net
+usr/bin/bayer2rgb					    airtools-core
 usr/bin/build-astrometry-index				    astrometry.net
 usr/bin/dcraw-tl					    airtools-core
 usr/bin/downsample-fits					    astrometry.net
@@ -247,11 +250,13 @@ usr/lib/python2.7/dist-packages/astrometry/util/util.py	    python-astrometry
 usr/lib/x86_64-linux-gnu/libastrometry.so		    libastrometry-dev
 usr/lib/x86_64-linux-gnu/libastrometry.so.0		    libastrometry0
 usr/share/airtools/airds9.ana				    airtools-core
+usr/share/airtools/airtools-gui.jar			    airtools-core
 usr/share/airtools/camera.dat				    airtools-core
 usr/share/airtools/refcat.dat				    airtools-core
 usr/share/airtools/set.dat				    airtools-core
 usr/share/airtools/sites.dat				    airtools-core
 usr/share/applications/airtools.desktop			    airtools-core
+usr/share/doc/airtools-core/README.bayer2rgb		    airtools-core
 usr/share/doc/airtools-core/README.dcraw-tl		    airtools-core
 usr/share/doc/airtools-core/README.md			    airtools-core
 usr/share/doc/airtools-core/changelog.Debian.gz		    airtools-core
@@ -273,6 +278,7 @@ usr/share/doc/airtools-doc/images/splash.png		    airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_images.png	    airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_param.png	    airtools-doc
 usr/share/doc/airtools-doc/manual-de.html		    airtools-doc
+usr/share/doc/airtools/README.bayer2rgb			    airtools
 usr/share/doc/airtools/README.dcraw-tl			    airtools
 usr/share/doc/airtools/README.md			    airtools
 usr/share/doc/airtools/changelog.Debian.gz		    airtools
