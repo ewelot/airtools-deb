@@ -1,24 +1,3 @@
-Package: airtools
-Architecture: amd64
-Version: 2.2-1
-Priority: optional
-Section: science
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 13
-Depends: airtools-core, airtools-doc, saods9 | saods9-bin, stilts, missfits, scamp, sextractor, skymaker, stiff, swarp
-Filename: main/airtools_2.2-1_amd64.deb
-Size: 4154
-MD5sum: d7139da58183eff885102e21fd2ec31b
-SHA1: bf67bf47c894bbfbc96bd2a433552b83cbaaa865
-SHA256: a3104e97c7995647acaf0025653a0640840973fb8974e1c7425b2972c0fe5ea1
-SHA512: 4f7c0746a7a924ea277d4f64a947660b99f928e3e34ccc7561b8ad17e8b25c86baf44dfe9c87315afb70960ff870b345384383e9e272420e9fa62afa9424d103
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-
 Package: skymaker
 Architecture: amd64
 Version: 3.12.2-2
@@ -43,14 +22,14 @@ Priority: optional
 Section: science
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
 Installed-Size: 14
-Depends: airtools-core (= 3.0), saods9 | saods9-bin, stilts, missfits, scamp, sextractor, skymaker, stiff, swarp
+Depends: airtools-core (= 3.0-1), saods9 | saods9-bin, stilts, missfits, scamp, sextractor, skymaker, stiff, swarp
 Recommends: airtools-doc, aladin, darktable
 Filename: main/airtools_3.0-1_amd64.deb
 Size: 4542
-MD5sum: 92cbc47521c48a16d333a068867eb6e5
-SHA1: 5330ff006aa2ae7b37b1071630e2dda528575f01
-SHA256: b8ad938d3926ea7f5337773aa3ff707311bfacd40627df3b1bb6b317532ebcef
-SHA512: b7265b2f24b14030d3614730072d8801d30f5d7c34a196141c13e7c2c41ce51f5a3f49b391338d0cd2816b9f325c83e0c84a3b549371dc0c797d4064f61ecfa6
+MD5sum: 38a94b58dfc7b8d2b5c9fb9a62b51271
+SHA1: c86fc2d2e577977fe71e077c376b20ef5bf3a12e
+SHA256: c70dec73b72a26f8266af46f0afb5723e462b1db274ae0c18e6fc64a0d989fe1
+SHA512: 3dfbf9b9feed4bb0bb6bc34ea1abb8a22d67e81264290076a51f3c8858024a9ce9a84afea5c358cc300b13df588d7e7caf7054dddce4a343ff20786d9df58f2d
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -104,53 +83,6 @@ Description: Compute astrometric and photometric solutions
  photometric solutions for any arbitrary sequence of FITS images in a
  completely automatic way.
 
-Package: airtools-core
-Architecture: amd64
-Version: 2.2-1
-Priority: optional
-Section: science
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1297
-Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, libcfitsio-bin, cfitsio-examples (>= 0.3), xpa-tools, wcstools, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_2.2-1_amd64.deb
-Size: 360772
-MD5sum: a274dcfd8e5a919e9ca13990066621fe
-SHA1: f4d155e169596d89a78b0a97aa1270b95aee4397
-SHA256: fc0c98084d7f96dca9dad54e5e04d419fb15d20e7a68f95332c60a89dd5ed1fc
-SHA512: dfba3d6c2982b2949cd0c7d65ec8bfab36f75ec2c9f7756a1340f371b100611e5bce33dcca1211738d21e9921010a16cb23d1615a7fc37fd3cc6f9564423e78b
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-
-Package: airtools
-Architecture: amd64
-Version: 2.0.2-3
-Priority: optional
-Section: science
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 13
-Depends: airtools-core, airtools-doc, cfitsio-examples, saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
-Filename: main/airtools_2.0.2-3_amd64.deb
-Size: 4034
-MD5sum: ee423fda9346b6e7411b1f663e49a74d
-SHA1: 07d3e81b771154c0b839edb160eba714ad6fb9f8
-SHA256: 39e7d543ee032d0686c2d62e55ebe163f5342de18ea370aef918e8d50038755f
-SHA512: 5a6c2bddc161f9fae4d9182ecee48ad1386d477bada5a6d38fec78f419992823355b34b993c343038a35a2f8944b18326f6465baa7a5bc2af745ad7cf6881466
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-
 Package: scamp
 Architecture: amd64
 Version: 2.2.6-3
@@ -170,50 +102,6 @@ Description: Compute astrometric and photometric solutions
  SCAMP reads SExtractor catalogs and computes astrometric and
  photometric solutions for any arbitrary sequence of FITS images in a
  completely automatic way.
-
-Package: airtools
-Architecture: amd64
-Version: 2.1-1
-Priority: optional
-Section: science
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 13
-Depends: airtools-core, airtools-doc, cfitsio-examples (>= 0.2), saods9 | saods9-bin, missfits, scamp, sextractor, skymaker, stiff, swarp, stilts
-Filename: main/airtools_2.1-1_amd64.deb
-Size: 4110
-MD5sum: d8f0da6dba383ee263daefdcd363c0a1
-SHA1: a818ddf279afca9cf22c245dbafa94f69254f087
-SHA256: 4d409097bc78bbb791888b842b0f286ac684f684748f5a0bced1a54c0a0d4274
-SHA512: 9d1cb4aee44e59314cc792088a5bbcbc6681ecc5839a3e2346bd81bcf0516cd5cdfc1e3de7ab5ad599b16ba87852267a49d41f6713c10ab38cad2c9daf8e2d7f
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-
-Package: airtools-doc
-Architecture: all
-Version: 2.2-1
-Priority: optional
-Section: doc
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1577
-Filename: main/airtools-doc_2.2-1_all.deb
-Size: 1489144
-MD5sum: 2a81780c25bdab2ecff65cfc555e9762
-SHA1: 029d6552402eb51973b80d7de23c1feb7931bae6
-SHA256: a8a0b04eed6c2bd90a20a16eecd09eb61b735f149be0fd40f7c80ef8d362ac6a
-SHA512: 7bcd933b3809cae610bbdef0cc6501709c05818572df2c26bc76718f27346e4c4652ae06c4052720133ddadf6cf0fc5d726317347bb8e082d07623ccbb676da1
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Documentation
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package contains some user documentation.
 
 Package: stilts
 Architecture: amd64
@@ -259,104 +147,6 @@ Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
 Description: CFITSIO based example programs
  This package contains selected programs from cexamples.tar: imarith, imlist,
  imstat and listhead.
-
-Package: airtools-doc
-Architecture: all
-Version: 2.1-1
-Priority: optional
-Section: doc
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1573
-Filename: main/airtools-doc_2.1-1_all.deb
-Size: 1485980
-MD5sum: a78faa9c15d95599d2dc1147289e9817
-SHA1: 650ca8de1b88196063574f682d2682b583594d21
-SHA256: dfc8239acd2fad59e2cf5d402ced2edc866858f79e064c17ffb09d2c76490882
-SHA512: ad67f051ec60337791a952c4f664949d19da03635c3a97d7cecdf5dcd3a26cc7f540229f3bb89e3270dd46e03307dc18a8369dc799c3cbb7532117d630b6a95e
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Documentation
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package contains some user documentation.
-
-Package: airtools-core
-Architecture: amd64
-Version: 2.1-1
-Priority: optional
-Section: science
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1270
-Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo, exiftool, bc, curl, wget, gawk, yad, xpa-tools, wcstools, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_2.1-1_amd64.deb
-Size: 354660
-MD5sum: 57fb952129bc617c01ff69908beaa18c
-SHA1: fbe38bb691fbd1b23917443113e63804596be49c
-SHA256: 3426227faf754e4493564968b543541b1cced948756e43ab9d23c80a8e1ed939
-SHA512: 7a8abf2a3e16a52239d20478716813e256f32187dfd0c35b17c0ae619820eebd76a389cf7de71b5bd5e48cf4481f9c481e54a97b40b7d8f9109a4f2901e81963
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-
-Package: airtools-core
-Architecture: amd64
-Version: 2.0.2-3
-Priority: optional
-Section: science
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1231
-Depends: imagemagick, graphicsmagick, gnuplot-x11, librsvg2-bin, potrace, plplot12-driver-cairo, exiftool, bc, curl, wget, gawk, yad, xpa-tools, wcstools, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_2.0.2-3_amd64.deb
-Size: 347558
-MD5sum: 3a100c8042f970be0670ca4da35d6837
-SHA1: 02c74251497ed688e734e834002ac39461829cd9
-SHA256: 237c22d9fafa0fd07fa57b40fe68ae08617fec96b304ff759ceadbdf25e1c9c1
-SHA512: cfe7709ffa655ce9fb16a72a3f1921d5f02f14de1dfd39e9e1ac307291f6a2a80c43d2dd7ff2457193e9e228044b7cdc6c697fa7396e842982ebb014426303b0
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-
-Package: airtools-doc
-Architecture: all
-Version: 2.0.2-3
-Priority: optional
-Section: doc
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1573
-Filename: main/airtools-doc_2.0.2-3_all.deb
-Size: 1485884
-MD5sum: c0f4777b71f9f96dc0cffc7ff5b054c9
-SHA1: fe16a3c5b644d7614923370b9429311e96b31998
-SHA256: b456551c55e196330bab78020fe8d4a051b3a2beddb766db79d0bc4fc9636f9a
-SHA512: 785a4367542373d7987853b718ee953b226e26e0e7397bc387fab2d3c0406a6eccd6e7e28931b22923ea8607ec9dbc9f8829f3878a0daf8c99c8e1d95df8d86b
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Documentation
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package contains some user documentation.
 
 Package: cfitsio-examples
 Architecture: amd64
