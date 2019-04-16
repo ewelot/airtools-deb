@@ -175,6 +175,29 @@ SHA512: b31d8538dc44c6052dd5d6a9bba893f6f0b865c7c767bb300d873a37253e66d72bbf2775
 Homepage: http://astromatic.net/software/skymaker
 Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
 
+Package: airtools-doc
+Architecture: all
+Version: 2.2-1
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1577
+Filename: main/airtools-doc_2.2-1_all.deb
+Size: 1489134
+MD5sum: e555729036d9bdcaf8d5cbaf70403d1f
+SHA1: cddb12ffef9afb668f9d0560c6da970b1a8eade5
+SHA256: 7d9d581c93699e95323f6d14331bc3735f8e2f43fb9d97e184a5136f42e12a98
+SHA512: 7805cd57fe62d76b76ae7378316bcc131ac6b319b2a3ee7315683bc6d8e121b3d04fd17f39e6f573ba99627a9a2d163dbe44406fccc4037a9af0b6b3e46d0694
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains some user documentation.
+
 Package: stilts
 Architecture: amd64
 Version: 3.0.9-1
