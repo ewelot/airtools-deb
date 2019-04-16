@@ -22,14 +22,14 @@ Priority: optional
 Section: science
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
 Installed-Size: 14
-Depends: airtools-core (= 3.0-1), saods9 | saods9-bin, stilts, missfits, scamp, sextractor, skymaker, stiff, swarp
+Depends: airtools-core (>= 3.0), saods9 | saods9-bin, stilts, missfits, scamp, sextractor, skymaker, stiff, swarp
 Recommends: airtools-doc, aladin, darktable
 Filename: main/airtools_3.0-1.1_amd64.deb
-Size: 4668
-MD5sum: 0fc328cc578acc5d8574e6923a3d6449
-SHA1: f4f9d3bbacebbb9e004ab9e40c30442f0c0fc344
-SHA256: 5fcb671c46a13aaf29ac986ab71372c2fbcbb9930427663aba9a71100cd888ae
-SHA512: 3027e03dc3cbe02bcb17083745f4c1e3986b6eb525debdd31b02e041b88d55f0b87bd1e0f31f07c633e22940f2515849a8fc65d4eac42f5e3fce7678db02d321
+Size: 4672
+MD5sum: 2b32897a6fe9be684eff767fcf1123c0
+SHA1: 79290dab81bd49e2eca68f80242c01b48462db53
+SHA256: 67604f5fb28ade33babdb66bb156be2c476f025eb67a3b99e4cee4fbc796146b
+SHA512: d5293e170eb3162730e1f03bf2745fc95e2e5cd6b7e971c4804a1dc0d10f3227fb162da5790111bbf2094e83e688d258b9f1fe4cd2da3ff2f160b5df6511aeb8
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
