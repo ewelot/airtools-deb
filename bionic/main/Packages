@@ -37,6 +37,26 @@ Description: Astronomical Image Reduction TOOLSet
  shell functions (bash) in a single file airfun.sh. GUI functionality is
  provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
 
+Package: scamp
+Architecture: amd64
+Version: 2.2.6-3
+Priority: optional
+Section: science
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 930
+Depends: curl, libatlas3-base, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libfftw3-single3 (>= 3.3.5), libplplot15
+Filename: main/scamp_2.2.6-3_amd64.deb
+Size: 256196
+MD5sum: 74017b85566ee21449c2cbfbc7610ecb
+SHA1: bd114981c4c474bcff8b91156ff3138b710d541d
+SHA256: 4b167aa58b9711b340e38e145930eb3bc64ffc19732a1226550b21f332fdec6e
+SHA512: 780628714801637e487cdf10401a41352ebe73430160bd31936073f56cfd1f3d7e12cd6a4728f6290d3833686853a9d6c1da6d6278687ed3e59c83f76be6e1d2
+Homepage: http://www.astromatic.net/software/scamp
+Description: Compute astrometric and photometric solutions
+ SCAMP reads SExtractor catalogs and computes astrometric and
+ photometric solutions for any arbitrary sequence of FITS images in a
+ completely automatic way.
+
 Package: airtools-core
 Architecture: amd64
 Version: 3.0-1.1
