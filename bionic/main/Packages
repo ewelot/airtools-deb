@@ -1,3 +1,26 @@
+Package: airtools-doc
+Architecture: all
+Version: 3.1~alpha2-1
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1578
+Filename: main/airtools-doc_3.1~alpha2-1_all.deb
+Size: 1489788
+MD5sum: f757870c7ecef521c149b82a72950ac2
+SHA1: 8344dd6900bd447d805cd230bf67ac787968620d
+SHA256: fc7a3ff70ba6e4a7c25b649b5c297b3daad59618df709ea23ea7d89354537bb0
+SHA512: d65674e389ebab010f27124248e64d5fa3a856e60ae5f83f132b6284c8b626f19da0c01e056d247f72a4a4b5b63ea5b16702d7f3fb1901b21a5d7a3e2df0ce34
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains the user documentation.
+
 Package: skymaker
 Architecture: amd64
 Version: 3.12.2-2
@@ -14,6 +37,54 @@ SHA256: 98e668621347f3a29670935bef0e06ccb015d61746f193f9cde9144e3c04358e
 SHA512: 49a730c1a3653ca4268c3d10f829389022a194cc5ad58b54e35405ff3dac91a2bece7a9bd68737acaf68c215f1a742334d06fbc9f812dbe7d71d1745e4c5e12a
 Homepage: http://astromatic.net/software/skymaker
 Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
+
+Package: airtools-core
+Architecture: amd64
+Version: 3.1~alpha2-1
+Priority: optional
+Section: science
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 10281
+Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, python3-ephem, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, default-jre | java-runtime, libc6 (>= 2.14), libjpeg8 (>= 8c), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_3.1~alpha2-1_amd64.deb
+Size: 8136920
+MD5sum: 46d8fd180671754b7ee70347d26d75a0
+SHA1: 0c77868511ddd74ec92f765bc65eed825969940a
+SHA256: e6d1440b5ab7a8ec9f4a725909081449cb764e7dadaec025e0db26866b9f9866
+SHA512: 9d6c4c48f1b3ed4b881643a0211359b2543a8aaf647dad17fcce5856253bbdf62a5b8d75e6bca2ee1a35c07ada0adab967523f60b5a876d9c5e1fe2392c32747
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Core components
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package provides the core components but does not install all required
+ third-party software packages.
+
+Package: airtools
+Architecture: amd64
+Version: 3.1~alpha2-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 15
+Depends: airtools-core (>= 3.0), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, missfits, scamp, sextractor, skymaker, stiff, swarp, mousepad
+Recommends: airtools-doc, aladin, darktable
+Filename: main/airtools_3.1~alpha2-1_amd64.deb
+Size: 4960
+MD5sum: cb37cee1eb23ab809c50086cdc91ea0b
+SHA1: d6895141763b6d51394133b75faf3ce6bf731591
+SHA256: ee43f63923bc61d8c8f58f8488446d619c26d3d82374f5c551a23531c62c60f0
+SHA512: 932397d73831b10e0669665954a6a677964e348a7bf1f248af4451fa1da71c4ae38baad60249cff18b50945418cfd305abce938792aa204522cf8e80dc75c91a
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
 
 Package: scamp
 Architecture: amd64
