@@ -1,4 +1,5 @@
 usr/bin/aircmd.sh					    airtools-core
+usr/bin/airfun.py					    airtools-core
 usr/bin/airfun.sh					    airtools-core
 usr/bin/airtools					    airtools-core
 usr/bin/airtools-cli					    airtools-core
@@ -40,9 +41,11 @@ usr/share/doc/airtools-doc/images/photcal_errorplot2.png    airtools-doc
 usr/share/doc/airtools-doc/images/photcal_results.png	    airtools-doc
 usr/share/doc/airtools-doc/images/psfextract_images2.png    airtools-doc
 usr/share/doc/airtools-doc/images/splash.png		    airtools-doc
+usr/share/doc/airtools-doc/images/vm_after_airtools_install.png airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_images.png	    airtools-doc
 usr/share/doc/airtools-doc/images/wcscalib_param.png	    airtools-doc
 usr/share/doc/airtools-doc/manual-de.html		    airtools-doc
+usr/share/doc/airtools-doc/manual-en.html		    airtools-doc
 usr/share/doc/airtools/README.bayer2rgb			    airtools
 usr/share/doc/airtools/README.dcraw-tl			    airtools
 usr/share/doc/airtools/README.md			    airtools
