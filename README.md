@@ -3,8 +3,8 @@ Debian package repository related to [AIRTOOLS](https://github.com/ewelot/airtoo
 (Astronomical Image Reduction TOOLSet)  
 
 The repository contains 64bit binary packages for the following Linux distributions:
+  - Debian 10 "Buster"
   - Debian 9 "Stretch"
-  - Debian 8 "Jessie" (discontinued)
   - Ubuntu 18.04 "Bionic" 
   - Ubuntu 16.04 "Xenial"
 

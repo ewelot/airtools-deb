@@ -1,0 +1,128 @@
+Package: airtools-core
+Architecture: amd64
+Version: 3.2-1
+Priority: optional
+Section: science
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1745
+Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, dstat, python3-ephem, fitsverify, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_3.2-1_amd64.deb
+Size: 454848
+MD5sum: e1b71c47f0fe2c0a5c73c532c1b0f4fb
+SHA1: 15baf25a74eab9c09ebef92564d0c75d12bbf248
+SHA256: 1e237a5d2839f6362d6a037308b84421d1c6bfe329b65fc95a184820ef53f1e1
+SHA512: 287506eb84a112116da1792fe90bbd60c368b16e28e98a7528f58c2d7b5d2c346d7c543b18f914e7b3472b64b727b89d6dcbdd0476552f95fd349707a8c31edc
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Core components
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package provides the core components but does not install all required
+ third-party software packages.
+
+Package: airtools-doc
+Architecture: all
+Version: 3.2-1
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1845
+Filename: main/airtools-doc_3.2-1_all.deb
+Size: 1672736
+MD5sum: fae9cd80150881aa528a841e3020d461
+SHA1: 9845aec00f4f5d5607f6ca9844661bd52cd499b5
+SHA256: 80911b0d525f7dd8d3481f03f232c81130aa64265bf86a1231011a0450c7c6f2
+SHA512: c8706aa13fdf443ab5ad2fb938aa5a5c97c938228fecff12df45682a20de1f680175a5a6e0ccb947c065b4ac05b7655277be9574e8e60b39be1577e132c787d2
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains the user documentation.
+
+Package: airtools
+Architecture: amd64
+Version: 3.2-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 15
+Depends: airtools-core (= 3.2-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
+Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
+Filename: main/airtools_3.2-1_amd64.deb
+Size: 5116
+MD5sum: eb87d84910ef63bcafdf82cddf2f2d7e
+SHA1: b80da19e9b51178fb69274dd38bfb099aa8fce1b
+SHA256: d8a1eb408f1794ac055803de8a650f54555f1b7dec131183ca83e21f1d42e02a
+SHA512: df2297e679887ac309183f987feb58a5491ea1c17da225eecbe20109627b73770ab4988987cfffa330f446232dcfe9a8380ee5c91b12ff5ff3cdf6ccc4c75ac6
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+
+Package: cfitsio-examples
+Architecture: amd64
+Version: 0.3-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 72
+Depends: libc6 (>= 2.2.5), libcfitsio7 (>= 3.450~)
+Recommends: libcfitsio-bin
+Filename: main/cfitsio-examples_0.3-1_amd64.deb
+Size: 9232
+MD5sum: a679f6330d4beb9964264ffb9462f318
+SHA1: 741aebd8716b4ab41ee735403eacc7d482e972dc
+SHA256: 73a03de91caf84739f12c8b14be9e5126b012db1c8dae9a7070adca421f486e7
+SHA512: c794bf470b264efc721dc20f70ba3049c5ee0f03024ed620cdf44113cb3b297017acb700143773102f32d646fdc0b2b60c02a3e515e2a576e7616848ae313e98
+Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
+Description: CFITSIO based example programs
+ This package contains selected programs from cexamples.tar: imarith, imlist,
+ imstat and listhead.
+
+Package: scamp
+Architecture: amd64
+Version: 2.2.6-3
+Priority: optional
+Section: science
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Installed-Size: 937
+Depends: curl, libatlas3-base, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libfftw3-single3 (>= 3.3.5), libplplot16
+Filename: main/scamp_2.2.6-3_amd64.deb
+Size: 271312
+MD5sum: 1ba6124df55336a39fa962d42feef090
+SHA1: c8dcd0ebae330e912ac54da9b68fbf92a2c20415
+SHA256: 9d26536039698eb3748b9f3869932474b117f465882acd4a22f92bdb930e7142
+SHA512: 5a8b8370bf71f7e3fbbf89561a37186302a50adcb375e1ee9fcd5cdaf335f6ea8a8bed912c4642e1e7dd100c2355b7aa26a46fca2d0c2ce56c58cf7fa61083a2
+Homepage: http://www.astromatic.net/software/scamp
+Description: Compute astrometric and photometric solutions
+ SCAMP reads SExtractor catalogs and computes astrometric and
+ photometric solutions for any arbitrary sequence of FITS images in a
+ completely automatic way.
+
+Package: skymaker
+Architecture: amd64
+Version: 3.12.2-2
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 383
+Depends: libc6 (>= 2.27), libfftw3-single3 (>= 3.3.5)
+Filename: main/skymaker_3.12.2-2_amd64.deb
+Size: 126236
+MD5sum: 80bbb7cd42ac3fc63dfdb5fa33ad6224
+SHA1: c89c0ce7f17588956045a6cec7c97a1bc098d0de
+SHA256: bdd514911ed69462604168b1cc022852051a3cecff2d1c5e57a446080fbbc45e
+SHA512: 99c1492e1b2eb4bcb894b40c8d273ba118a2bf03e40189572297c09ea9a2da00e88cc133638ad3c65a9af1b79e48437bfdc0b6ec6cd2554655e3693be2662d4f
+Homepage: http://astromatic.net/software/skymaker
+Description: SkyMaker is a program to generate artificial catalogs of astronomical sources.
+
