@@ -50,6 +50,32 @@ Description: Astronomical Image Reduction TOOLSet - Core components
  This package provides the core components but does not install all required
  third-party software packages.
 
+Package: airtools-core
+Architecture: amd64
+Version: 3.2.2-1
+Priority: optional
+Section: science
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1743
+Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, dstat, python3-ephem, fitsverify, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg8 (>= 8c), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_3.2.2-1_amd64.deb
+Size: 456260
+MD5sum: afe923ac89a26da25f58ad4f03f0e293
+SHA1: 82f254dfd6c31e81d478287996a4ff23cca2d39f
+SHA256: b2f6633da8ab43ee724811936724ea9c2dc387f8b8c7b061931044ac781a0c25
+SHA512: be19c2fbdd8b222551ca75f78ed46790f9892c087704590b9e41dc43254e102a951cea21839d7bb938f0b04f83a79f33e016f79af2e8dd4986e05aa10692e82b
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Core components
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package provides the core components but does not install all required
+ third-party software packages.
+
 Package: airtools-doc
 Architecture: all
 Version: 3.1-1
@@ -96,6 +122,29 @@ Description: Astronomical Image Reduction TOOLSet - Documentation
  .
  This package contains the user documentation.
 
+Package: airtools-doc
+Architecture: all
+Version: 3.2.2-1
+Priority: optional
+Section: doc
+Source: airtools
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 1845
+Filename: main/airtools-doc_3.2.2-1_all.deb
+Size: 1672824
+MD5sum: 171f8369f93b4e2f691de1177684c6c0
+SHA1: 199aa4a92b06337e166d2b64e8f1afb5deb41979
+SHA256: 21fffa636a1a01e740211e88c375f877c4262dcfa821ec2b0ccbc8cff1bef0c7
+SHA512: 766e1b99c8f8851a23a05ce97c92d463e283b26e6393418c7898d94b6244f8cd17115dcfd3f1c24437d2763121eb47aa52a1fe0b9e4261c21d2daba890f92707
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet - Documentation
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains the user documentation.
+
 Package: airtools
 Architecture: amd64
 Version: 3.1-1
@@ -133,6 +182,28 @@ MD5sum: feca931b622d0c7ac68e3209d829d4f6
 SHA1: e80aee7842b6cf48e9e268a505d7b8c6a0084ca2
 SHA256: ddce32f66402ed5ed46d307fb9587026f435f7968cb34a984d7fabe71cfe2c0f
 SHA512: 67957659f0e2d06a8bdea53549e3dbe09b010adbb16fa8fb1fb3b1525b78c148af983891e927b0417e0381cb1b250ed51be68bdc765cbe53f308a3cf622848c1
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+
+Package: airtools
+Architecture: amd64
+Version: 3.2.2-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 15
+Depends: airtools-core (= 3.2.2-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
+Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
+Filename: main/airtools_3.2.2-1_amd64.deb
+Size: 5180
+MD5sum: 1d0e5d1acb8c16e4eb464cbabd456688
+SHA1: 66edf7b5d8d121a3d7fbe22736ce95f653e119ce
+SHA256: cbd7577a58f783a6af29d521cdcbdb3df0ad0f295cbfdb0b6d747d61cedf4acd
+SHA512: 54a9ddd7994a1c33dcfe4d4f3fc465abad519728ac46b20c9a8801734c497d2bfce7f4d5ff55163e840874296f3f549a521e2837e510f3d40303c14f7361bc70
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
