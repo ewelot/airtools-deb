@@ -5,6 +5,7 @@ Debian package repository related to [AIRTOOLS](https://github.com/ewelot/airtoo
 The repository contains 64bit binary packages for the following Linux distributions:
   - Debian 10 "Buster"
   - Debian 9 "Stretch"
+  - Ubuntu 20.04 "Focal"
   - Ubuntu 18.04 "Bionic" 
   - Ubuntu 16.04 "Xenial"
 
