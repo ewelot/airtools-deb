@@ -83,15 +83,15 @@ Priority: optional
 Section: science
 Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1954
+Installed-Size: 1953
 Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, pigz, dstat, python3-ephem, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, fitsverify, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg8 (>= 8c), libnetpbm10
 Suggests: airtools
 Filename: main/airtools-core_3.3.1-1_amd64.deb
-Size: 500352
-MD5sum: 2341d000342e990face2c376a30d9247
-SHA1: ff08e7b93a0a5be0f93ecb81938b277f3a6cbf00
-SHA256: 7ba990077e36727021ea4ad4ac92487724c5385757319285a25835c17acd74b9
-SHA512: c4cc542d9e473455cec703c9f6fd267abac7145ce2fdf986e74b0a16efc8183b3d99299d4e37367f9dee3da94b1227d56adb8f68733c30084c08dc48394c1662
+Size: 500076
+MD5sum: 4e82a61be3930e0f2b1ef448d727d2ed
+SHA1: 4c49f4d7ba0f41a7bf978ea84072eef0c5e0deec
+SHA256: 52b6898391b86509a92da46a81963c3b714a5a1c6bec8dd5f13f2b5c1f566f9e
+SHA512: 4164c4c2a33e315b3271702051019c9e4854bb7ba8091908abed87e86f0bb8e5826b061e889b7638c1c056d2d07fb88461addc05359efa7b764a4b4dc0afc494
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet - Core components
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
