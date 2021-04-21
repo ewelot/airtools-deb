@@ -1,57 +1,5 @@
 Package: airtools-core
 Architecture: amd64
-Version: 3.2.5-1
-Priority: optional
-Section: science
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1815
-Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, dstat, python3-ephem, fitsverify, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_3.2.5-1_amd64.deb
-Size: 466700
-MD5sum: 76d73da39eadb1bb1edb15c613c2b564
-SHA1: d50f6bfb4cfed899d337f37528a4bcb9ac8298eb
-SHA256: 459cf2f6759e4d4818c8879190f9495ea6431b5ae978dafcc709e3927101eb60
-SHA512: 4391d9ff69956c3bd46c9e0b7a512cad2d453a1bb5062d92c37b616230afbdead7be14cd7997294e68f3a2e4502c9138c83b38288ce4a4268c164276d30c387e
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-
-Package: airtools-core
-Architecture: amd64
-Version: 3.3.2-1
-Priority: optional
-Section: science
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1968
-Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, pigz, dstat, python3-ephem, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, fitsverify, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
-Suggests: airtools
-Filename: main/airtools-core_3.3.2-1_amd64.deb
-Size: 494140
-MD5sum: cc6505a9e54820dc13b66db87e8d63f1
-SHA1: 854923676b6ee15fdb6d9d7381c600b2fbb41eb6
-SHA256: f08e0d511547332887f72962358cf43619bbb32490818a07fefb0f583b35ba0e
-SHA512: e6c13db47ce8e6a1e77a5ce81a50d44c8980342b10621c9cf1d486446108b2161e12c09a6cd2be06256b7ad3ade8c78e6d6b034a5a8215365d4ce00d27adbe1e
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Core components
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package provides the core components but does not install all required
- third-party software packages.
-
-Package: airtools-core
-Architecture: amd64
 Version: 3.3.3-1
 Priority: optional
 Section: science
@@ -76,51 +24,31 @@ Description: Astronomical Image Reduction TOOLSet - Core components
  This package provides the core components but does not install all required
  third-party software packages.
 
-Package: airtools-doc
-Architecture: all
-Version: 3.2.5-1
+Package: airtools-core
+Architecture: amd64
+Version: 4.0-1
 Priority: optional
-Section: doc
+Section: science
 Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1845
-Filename: main/airtools-doc_3.2.5-1_all.deb
-Size: 1672956
-MD5sum: 92ed7f7d613849c5f250bdc7eaf75d3f
-SHA1: 3d2a59950d4ac9c530187303eb424064971427f8
-SHA256: be3eb6765d4cf730534cb077eb7b7a1b88d746681e3f56e3f125b81fe5026236
-SHA512: dca71f6090a3bcda3029103bb5ac0cc0e5e5b9d2b4fa1f05d9f2418475996ad0bf6327f5f08564c8a2e2f95e4d7ca2a78ecb953287154df51a78a3f4928d3dcf
+Installed-Size: 2106
+Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, pigz, dstat, python3, python3-numpy, python3-ephem, python3-pyvips, libvips42 (>= 8.10.5), cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, fitsverify, mousepad, default-jre-headless, openjfx, libc6 (>= 2.14), libjpeg62-turbo (>= 1.3.1), libnetpbm10
+Suggests: airtools
+Filename: main/airtools-core_4.0-1_amd64.deb
+Size: 522508
+MD5sum: 875897f1a54c2bf44afbc4a3a1dfb1c7
+SHA1: 917619f2b789e48df9c1d5caaa8a02fccb29105e
+SHA256: 289f1074d39270fc475e883375cdd5751a628006df47eff665cb62606debe2b8
+SHA512: 947388185f9798226dfc1977c8274eccbd3e3d6fab3bc4e0fd658414041eebb471bacd07e5fbf8853d36933f26afc57566105e4653f7f8fcaa5210831fcada54
 Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Documentation
+Description: Astronomical Image Reduction TOOLSet - Core components
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
  of both CCD and DSLR observations on Linux. The main tasks are implemented as
  shell functions (bash) in a single file airfun.sh. GUI functionality is
  provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
  .
- This package contains the user documentation.
-
-Package: airtools-doc
-Architecture: all
-Version: 3.3.2-1
-Priority: optional
-Section: doc
-Source: airtools
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 1845
-Filename: main/airtools-doc_3.3.2-1_all.deb
-Size: 1673056
-MD5sum: db73a0019445ad25216b104a533fe936
-SHA1: 2f86d344b4a0f4c7538852ad1177589bbc21cd8f
-SHA256: 9a7892fe211936c39ce807e72bf38d8bc407094f67c3a9360d93f33a1cac76e0
-SHA512: e5e2f7fbd10e99d9bd32745fec547ac37eeb15027d9b5e2877866351dafb781e9b45765a6afacdb476be4dfd76e6abba916caafc3a3f4c69febb6b9e7e58c23f
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet - Documentation
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
- .
- This package contains the user documentation.
+ This package provides the core components but does not install all required
+ third-party software packages.
 
 Package: airtools-doc
 Architecture: all
@@ -145,49 +73,28 @@ Description: Astronomical Image Reduction TOOLSet - Documentation
  .
  This package contains the user documentation.
 
-Package: airtools
-Architecture: amd64
-Version: 3.2.5-1
+Package: airtools-doc
+Architecture: all
+Version: 4.0-1
 Priority: optional
-Section: science
+Section: doc
+Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 15
-Depends: airtools-core (= 3.2.5-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
-Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
-Filename: main/airtools_3.2.5-1_amd64.deb
-Size: 5356
-MD5sum: 7fe7ac7e671e816c0a40464a76c760ba
-SHA1: bc199026392f3eaf2cf5b5ca66f0ee874ef72ce1
-SHA256: 923a74f8bd12a13af4822fa1e1c70a8584c8726bbdf37dc46a08ae461ae1d787
-SHA512: ebea4b6d74c8cab02d6159bc7ece8a25bbd1da5fe90b5dc0fd19efe9e5c596cec515eee69664a128fd76a9c26f4881217179e5cefa556b9bc2be522c631a89c3
+Installed-Size: 2239
+Filename: main/airtools-doc_4.0-1_all.deb
+Size: 2014192
+MD5sum: 0d40a7b395ff9d1e0ddabf0dc194dea3
+SHA1: 94cfa94ce817e0712ac4a76a57a553ab11a1c263
+SHA256: bea460a3e687ad343210495f1f333367c649d13bb36eae377274c819050d0dc9
+SHA512: de620449e517a8b7bfa4bf5c76e9d9d397b2dd8da2fcba73448c0b34729084094aedf3b04774931e23b210b6c44644cc24f78fec537d5fd9f62117d1a231dfc0
 Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet
+Description: Astronomical Image Reduction TOOLSet - Documentation
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
  of both CCD and DSLR observations on Linux. The main tasks are implemented as
  shell functions (bash) in a single file airfun.sh. GUI functionality is
  provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
-
-Package: airtools
-Architecture: amd64
-Version: 3.3.2-1
-Priority: optional
-Section: science
-Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 15
-Depends: airtools-core (= 3.3.2-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
-Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
-Filename: main/airtools_3.3.2-1_amd64.deb
-Size: 5444
-MD5sum: 3ab59c54446559085f01667f75ea0383
-SHA1: ac4a85f720a03c61ec84e1b8298587fe6f947ce2
-SHA256: 304eaac7fe0c23b94ac9814db1c111df792cf0748b597ff1a6846f28323e5867
-SHA512: 8c09233381cd39d5b26b43b1aae187e7fbb7ada1bc6863d6f7453d66afb94f6aa7530d82673969b1c95678470af659c3c25ff3fd95a2b2d5d1579e67b9d1b73d
-Homepage: https://github.com/ewelot/airtools
-Description: Astronomical Image Reduction TOOLSet
- AIRTOOLS is a collection of programs to aim at astronomical image reduction
- of both CCD and DSLR observations on Linux. The main tasks are implemented as
- shell functions (bash) in a single file airfun.sh. GUI functionality is
- provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+ .
+ This package contains the user documentation.
 
 Package: airtools
 Architecture: amd64
@@ -204,6 +111,28 @@ MD5sum: aa8cea5ea780dc3690225dea878bb09b
 SHA1: e275f1731febcd3801f2c27f6e790b10b07afe0b
 SHA256: 29f89d92e8a7609e9dd2a28c4e2c5c81fbbe05bc320ec2e90048a7060b5de284
 SHA512: 6dcc0d90a631ed4bc9955929c88bda88572f09fdcec6c036985e36e6a45016d2856f3e68d16e7638e30979b8c84b3a2a50394164099cc9a5eb7416a79db87be0
+Homepage: https://github.com/ewelot/airtools
+Description: Astronomical Image Reduction TOOLSet
+ AIRTOOLS is a collection of programs to aim at astronomical image reduction
+ of both CCD and DSLR observations on Linux. The main tasks are implemented as
+ shell functions (bash) in a single file airfun.sh. GUI functionality is
+ provided by means of analysis tasks for the (external) SAOImage DS9 viewer.
+
+Package: airtools
+Architecture: amd64
+Version: 4.0-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
+Installed-Size: 15
+Depends: airtools-core (= 4.0-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
+Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
+Filename: main/airtools_4.0-1_amd64.deb
+Size: 5584
+MD5sum: 3b9dd42cbc5642e2a3760ca7c802c56e
+SHA1: 5c90c3cf5da4436a4c043fb7fdebc5241bec1e3f
+SHA256: c37f2f58600f2f487b512e748b688efbe59b3c309969374cd9aed4ea44decbda
+SHA512: 49ff6669abdfdec4eb7b03d96cfa1f07a24c41717f1429fc6bae1975e466c1a39a5fb019930c11c77919c5a61d893b046e507f6b99ac866ac7290bb6c49950a4
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -230,6 +159,193 @@ Homepage: http://heasarc.gsfc.nasa.gov/docs/software/fitsio/cexamples.html
 Description: CFITSIO based example programs
  This package contains selected programs from cexamples.tar: imarith, imlist,
  imstat and listhead.
+
+Package: gir1.2-vips-8.0
+Architecture: amd64
+Version: 8.10.5-1.1
+Priority: optional
+Section: introspection
+Source: vips
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 136
+Depends: gir1.2-glib-2.0, libvips42 (>> 8.0.2-1~)
+Filename: main/gir1.2-vips-8.0_8.10.5-1.1_amd64.deb
+Size: 77360
+MD5sum: 5f73f798a6dbb60feedcb9a387d71875
+SHA1: d4e32a1b1e00bb22c85e2d38ad4575fff82706e8
+SHA256: e28ef45aa2e436b3b2579ecfc5ab21251d98287688f7e4fec273adb56bc8d230
+SHA512: 60c75581cefd7c3c1ff575cd61671c96c0acee4f0393c42e46675894ec50c05191be0e5594e16c072d7c25cb83c82bb280add729f34526cd83df322e076bc776
+Homepage: https://libvips.github.io/libvips/
+Description: GObject introspection data for VIPS
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package provides the introspection data for VIPS library.
+
+Package: libvips-dev
+Architecture: amd64
+Version: 8.10.5-1.1
+Priority: optional
+Section: libdevel
+Source: vips
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 8181
+Depends: libvips42 (= 8.10.5-1.1), gir1.2-vips-8.0 (= 8.10.5-1.1), libjpeg-dev, libtiff-dev, zlib1g-dev, fftw3-dev | libfftw3-dev, liblcms2-dev, libpng-dev, libmagickcore-dev, libmagickwand-dev, libfreetype6-dev, libpango1.0-dev, libfontconfig1-dev, libglib2.0-dev, libice-dev, gettext, pkg-config, liborc-0.4-dev, libopenexr-dev, libmatio-dev, libexpat1-dev, libcfitsio-dev, libopenslide-dev, libwebp-dev, libgsf-1-dev, libgif-dev (>= 5.1), libpoppler-glib-dev, librsvg2-dev (>= 2.40.0), libimagequant-dev, libheif-dev
+Recommends: libvips-doc, libvips-tools
+Suggests: nip2
+Filename: main/libvips-dev_8.10.5-1.1_amd64.deb
+Size: 1361888
+MD5sum: 789b7fa60c1f424931bcaf966969bd52
+SHA1: a7d5af549a87fd3cd3629e65318f986780f47488
+SHA256: fba522cda4ac82b1d30113c74c44277c2aff7806329d87a12571311800536dbf
+SHA512: c24c39b67f3b31630ca0063dd52e89ae5bd8630fd42df2b8a9b3d213e21f4c0a788c2eb0d7127d282d7e9165d720088e9b63a5e403d040e4a6f8231e5e174c77
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (dev)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes all development files needed to compile
+ applications that use the vips library.
+
+Package: libvips-doc
+Architecture: all
+Version: 8.10.5-1.1
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Source: vips
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3755
+Filename: main/libvips-doc_8.10.5-1.1_all.deb
+Size: 474776
+MD5sum: 6c8093037931b199f1313b675183ee60
+SHA1: 8160e32065d3bbd29c5966b4266cf7de86ab36b8
+SHA256: f91f381090c5ceef28f029f2ec9b3b031fba18eeb293ed4793b51195f2008061
+SHA512: 47b8a02ca98f27fec861fc55c3c14ccff890b3bd793ec6663052d6fcc923f640c09c49e7e269a1a2be25c9a6e5a9d8d6d156c08cd31132122735958d967922b3
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (doc)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes complete documentation for the VIPS system.  It
+ includes the application programmers' guide, the library programmers'
+ guide, the C++ programmers' guide, and the reference guide, as well
+ as HTML versions of the program and library manual pages.
+
+Package: libvips-tools
+Architecture: amd64
+Version: 8.10.5-1.1
+Priority: optional
+Section: graphics
+Source: vips
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 185
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libcfitsio7 (>= 3.450~), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.16.0), libgomp1 (>= 4.2.1), libgsf-1-114 (>= 1.14.8), libhdf5-103, libheif1 (>= 1.0.0), libilmbase23 (>= 2.2.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmatio4 (>= 1.5.4), libopenexr23, libopenslide0, liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.18.0), librsvg2-2 (>= 2.40.0), libtiff5 (>= 4.0.3), libvips42 (>> 8.0.2-1~), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4), python3
+Recommends: nip2, libvips-doc
+Suggests: libvips-dev
+Filename: main/libvips-tools_8.10.5-1.1_amd64.deb
+Size: 88152
+MD5sum: 4aebf8ba49dfdade41c20f44537eb313
+SHA1: ad18c36957483bb3e8e165e03489c5930b7a3a82
+SHA256: 2afee86895792977aeb4a765eb5c9f13b6dcb1d2411759ed8d3faa54f991d81a
+SHA512: 6a246283c97474238efa4a87039fca1f4592a558c8b7fcad683af5660149c59eeba4d8b5db4e4aa08454c6465f25579b88c291fb63969f2f3521619edd6b2300
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones (tools)
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes several command-line utilities that make it
+ possible to use some vips functionality from shell scripts or the
+ command line.
+
+Package: libvips42
+Architecture: amd64
+Version: 8.10.5-1.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: vips
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 3687
+Provides: libvips
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcfitsio7 (>= 3.450~), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgomp1 (>= 4.2.1), libgsf-1-114 (>= 1.14.8), libhdf5-103, libheif1 (>= 1.3.2), libilmbase23 (>= 2.2.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmatio4 (>= 1.5.4), libopenexr23, libopenslide0, liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.40.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4)
+Recommends: nip2
+Filename: main/libvips42_8.10.5-1.1_amd64.deb
+Size: 1130256
+MD5sum: f627fb9cc6f008b4973383a178d153c4
+SHA1: 851944ea47152abf3bee2e7c65fb98f07bf3d279
+SHA256: a1a30bf7d78a3374fceeae3acacfb35859309a4a240c4a80c1469f4148b46bb7
+SHA512: fde1de4edb0f554ca8ff91d089adf52078b1777477708636f8fec89612220517707e7e2ba45de5489936ec6ee6fec0b90e3d6b3c30e364afebf4f727e1485d1c
+Homepage: https://libvips.github.io/libvips/
+Description: image processing system good for very large ones
+ VIPS is an image processing system designed with efficiency in mind.
+ It is good with large images (ones that larger than the amount of RAM in
+ your machine), and for working with colour.  It can perform many
+ image manipulation tasks much faster than other packages such as
+ ImageMagick and the GIMP and includes some special features such as
+ creating single "mosaic" images from multiple parts.
+ .
+ VIPS consists of two main components: an image processing library
+ with some command-line tools and a spreadsheet-like graphical user
+ interface.  The graphical interface is available in the nip2 package.
+ .
+ This package includes runtime libraries needed to run applications
+ linked with the vips library.
+
+Package: python3-pyvips
+Architecture: amd64
+Version: 2.1.14-1
+Priority: optional
+Section: python
+Source: pyvips
+Maintainer: Thomas Lehmann <t.lehmann@mailbox.org>
+Installed-Size: 272
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.12.0), libvips42 (>> 8.0.2-1~), python3 (>= 3~), python3-cffi-backend-api-min (<= 9729), python3-cffi-backend-api-max (>= 9729), python3-pkgconfig, python3:any
+Suggests: python-pyvips-doc
+Filename: main/python3-pyvips_2.1.14-1_amd64.deb
+Size: 53008
+MD5sum: 4c90fe34873a88ad6a273682354c24e8
+SHA1: 0c52583649d5e7da125a4a8a6e5703b9e2a6e5bd
+SHA256: 0cd45d2a7f401eac96745e650e55a1bddee477664dab96ab0850de7ff8d4be2d
+SHA512: 45a83d8810eeb2d83cfebf3ce32e28907ce58b6e42c196b8f78e755615330e441451122a34010edb8a3834dcd03aed9b15df60931b2ce1372d640980f9b67efd
+Homepage: https://github.com/libvips/pyvips
+Description: Fast image processing system with low memory needs
+ Libvips is a demand-driven, horizontally threaded image processing library.
+ Compared to similar libraries, libvips runs quickly and uses little memory.
+ .
+ This package includes Python bindings to the vips library.
 
 Package: scamp
 Architecture: amd64
