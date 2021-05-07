@@ -111,11 +111,11 @@ usr/lib/python3/dist-packages/pyvips/vtargetcustom.py	    python3-pyvips
 usr/lib/x86_64-linux-gnu/libvips-cpp.a			    libvips-dev
 usr/lib/x86_64-linux-gnu/libvips-cpp.so			    libvips-dev
 usr/lib/x86_64-linux-gnu/libvips-cpp.so.42		    libvips42
-usr/lib/x86_64-linux-gnu/libvips-cpp.so.42.12.6		    libvips42
+usr/lib/x86_64-linux-gnu/libvips-cpp.so.42.12.7		    libvips42
 usr/lib/x86_64-linux-gnu/libvips.a			    libvips-dev
 usr/lib/x86_64-linux-gnu/libvips.so			    libvips-dev
 usr/lib/x86_64-linux-gnu/libvips.so.42			    libvips42
-usr/lib/x86_64-linux-gnu/libvips.so.42.12.6		    libvips42
+usr/lib/x86_64-linux-gnu/libvips.so.42.12.7		    libvips42
 usr/lib/x86_64-linux-gnu/pkgconfig/vips-cpp.pc		    libvips-dev
 usr/lib/x86_64-linux-gnu/pkgconfig/vips.pc		    libvips-dev
 usr/share/airtools/airds9.ana				    airtools-core

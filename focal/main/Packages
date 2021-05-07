@@ -52,20 +52,20 @@ Description: Astronomical Image Reduction TOOLSet - Core components
 
 Package: airtools-core
 Architecture: amd64
-Version: 4.0.2-1
+Version: 4.0.3-1
 Priority: optional
 Section: science
 Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 2154
+Installed-Size: 2157
 Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, pigz, dstat, python3, python3-numpy, python3-ephem, python3-pyvips, libvips42 (>= 8.10.5), cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, fitsverify, mousepad, default-jre-headless, openjfx, libc6 (>= 2.29), libjpeg8 (>= 8c), libnetpbm10
 Suggests: airtools
-Filename: main/airtools-core_4.0.2-1_amd64.deb
-Size: 534568
-MD5sum: 055d156b888af018935da61f91a2c2ac
-SHA1: a0a8531fa1dad3d994389e54d80a1085c5805039
-SHA256: 67f6ac01e230527ab16e05f1c1b08073a4dcc32ebed047dfafec0e889c69c07e
-SHA512: ac72ea55ab81e31f2a48c30eb822961d85242bc3ee88c5a3a2ac50a84e96ff855bc576ff9fcdc3fa59a782ecbbc835ece3be420075bd18f0d72402da2ada8231
+Filename: main/airtools-core_4.0.3-1_amd64.deb
+Size: 535580
+MD5sum: 8db869cbfd89fa0e8c547a1c2f9fc564
+SHA1: cede36fff046175b5a75910078cfc677b15a0269
+SHA256: 4f5e87fd22e2aa870f5c2d051efc0c0d9ce7f4e06cc4bdef88d49d083d4fde8d
+SHA512: e48842946d1d519a322f3110eb1dda630bf844b41105e504a752bd604894aa83e0e579a29c039f4c689e42b03c467755b8b00037da70b7135d03aeea2a6f6844
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet - Core components
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -124,18 +124,18 @@ Description: Astronomical Image Reduction TOOLSet - Documentation
 
 Package: airtools-doc
 Architecture: all
-Version: 4.0.2-1
+Version: 4.0.3-1
 Priority: optional
 Section: doc
 Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
 Installed-Size: 2239
-Filename: main/airtools-doc_4.0.2-1_all.deb
-Size: 2014232
-MD5sum: 8c5b5521078b28e9b4f93004d29bf602
-SHA1: e26213c0a5fc520c0792815b2fbe150fa79f3350
-SHA256: 4b7b0d81e870636a0908cc4a82592945014b59974916ba2a7d0bed35e04c99b2
-SHA512: 8ed6f9240315a06f3d5c78fd48bee5da764d30b9627085cd8bcaff911269956133ddee4b7ce7c185bd722770faf374bd5caa7812545ff7ec5b52b154d56a9baf
+Filename: main/airtools-doc_4.0.3-1_all.deb
+Size: 2014260
+MD5sum: cd5577736de9c3f2262249cc150c82d3
+SHA1: 13756069e8fdb9d1e311aae4bc918d36c22af80c
+SHA256: b6811cf8ea423e4c5f74f9f6f7327dc1dda89c2001d18e4a28d38161623db568
+SHA512: 9c33b6c92259bad5a34a773b497133569d13440025544861d03f71b23644fd36f6af1f66400e0aa43f3a928a04906bee1b85080797ef6ea4bb41a613266a57fb
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet - Documentation
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -191,19 +191,19 @@ Description: Astronomical Image Reduction TOOLSet
 
 Package: airtools
 Architecture: amd64
-Version: 4.0.2-1
+Version: 4.0.3-1
 Priority: optional
 Section: science
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
 Installed-Size: 15
-Depends: airtools-core (= 4.0.2-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
+Depends: airtools-core (= 4.0.3-1), saods9 | saods9-bin, stilts, astrometry.net, astrometry-data-tycho2-10-19, astrometry-data-tycho2-09, missfits, scamp, sextractor, skymaker, stiff, swarp
 Recommends: airtools-doc, aladin, darktable, astrometry-data-tycho2-08
-Filename: main/airtools_4.0.2-1_amd64.deb
-Size: 5640
-MD5sum: 512b432926de329b8b86986e488f8c43
-SHA1: 2b78e47afc8516bdf406f03b0caa70ca21669af2
-SHA256: 07e9b7f167a26eb7317f6407f341689a926c9659194ba235bc449a206090297f
-SHA512: f1975495a1914adb017527686a6f18865d2ea40e775c5cb108325ad0959724fe5d0cb3001f28e4b839ee0830023cba824e195da8ee6a190d2b4d4940636b2482
+Filename: main/airtools_4.0.3-1_amd64.deb
+Size: 5648
+MD5sum: d79c462a03a9ac371fde24a40503af94
+SHA1: bea84a41c6b6d2499a2ea8e7f1b14d75dc9c0cdb
+SHA256: 7a6ddbd89d6a041626fb9a4966596aefecc46095254bf5a627e23c643193c98b
+SHA512: b75d06f38d3235c3af121aa38bd4b5cac7cceb6f90e71068a006f1378209486177634758f0578c29c9a88a76a125a555d5f15e82849b05abb3f3afcad9043ba4
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -233,19 +233,19 @@ Description: CFITSIO based example programs
 
 Package: gir1.2-vips-8.0
 Architecture: amd64
-Version: 8.10.5-1.1
+Version: 8.10.6-1.1
 Priority: optional
 Section: introspection
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 85
 Depends: gir1.2-glib-2.0, libvips42 (>> 8.0.2-1~)
-Filename: main/gir1.2-vips-8.0_8.10.5-1.1_amd64.deb
-Size: 25104
-MD5sum: 2d94c81fc9c714a824df6a878a2d87f1
-SHA1: 755de6a3fa0aad51603c6e7cb7954a0969ca5ba5
-SHA256: 7db18c885c8599791d734ea6dd8940f992f07356bb12cd9646f4a8ab0ae57ddd
-SHA512: e302b8daf78d75b329e92a3a4a563cfe9fd6cd698ced617ce7f9fa63ea46bd7718dc5e88fc204be037e0d0da6bc4877ae99c6fab907d9502807024198c401ea5
+Filename: main/gir1.2-vips-8.0_8.10.6-1.1_amd64.deb
+Size: 25220
+MD5sum: 72ce895ab5a00dc03762b65d394b0824
+SHA1: ee4ce952d92c08d1ea9b5d7428f1e9bffc722a25
+SHA256: f425e028f8e3103f48801f8ff633f6f12ab6887a335749b6a6f5aa618d94d7a2
+SHA512: 58eeab293c0384ff215bff8f3a390025a077b8391eb52464b4b3a649064285aa0d2a691c00db895ee707f8649fa5a00aef0bef90e5e36e86ae2b5f9c59d89d11
 Homepage: https://libvips.github.io/libvips/
 Description: GObject introspection data for VIPS
  VIPS is an image processing system designed with efficiency in mind.
@@ -263,21 +263,21 @@ Description: GObject introspection data for VIPS
 
 Package: libvips-dev
 Architecture: amd64
-Version: 8.10.5-1.1
+Version: 8.10.6-1.1
 Priority: optional
 Section: libdevel
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 8552
-Depends: libvips42 (= 8.10.5-1.1), gir1.2-vips-8.0 (= 8.10.5-1.1), libjpeg-dev, libtiff-dev, zlib1g-dev, fftw3-dev | libfftw3-dev, liblcms2-dev, libpng-dev, libmagickcore-dev, libmagickwand-dev, libfreetype6-dev, libpango1.0-dev, libfontconfig1-dev, libglib2.0-dev, libice-dev, gettext, pkg-config, liborc-0.4-dev, libopenexr-dev, libmatio-dev, libexpat1-dev, libcfitsio-dev, libopenslide-dev, libwebp-dev, libgsf-1-dev, libgif-dev (>= 5.1), libpoppler-glib-dev, librsvg2-dev (>= 2.40.0), libimagequant-dev, libheif-dev
+Installed-Size: 8553
+Depends: libvips42 (= 8.10.6-1.1), gir1.2-vips-8.0 (= 8.10.6-1.1), libjpeg-dev, libtiff-dev, zlib1g-dev, fftw3-dev | libfftw3-dev, liblcms2-dev, libpng-dev, libmagickcore-dev, libmagickwand-dev, libfreetype6-dev, libpango1.0-dev, libfontconfig1-dev, libglib2.0-dev, libice-dev, gettext, pkg-config, liborc-0.4-dev, libopenexr-dev, libmatio-dev, libexpat1-dev, libcfitsio-dev, libopenslide-dev, libwebp-dev, libgsf-1-dev, libgif-dev (>= 5.1), libpoppler-glib-dev, librsvg2-dev (>= 2.40.0), libimagequant-dev, libheif-dev
 Recommends: libvips-doc, libvips-tools
 Suggests: nip2
-Filename: main/libvips-dev_8.10.5-1.1_amd64.deb
-Size: 1335232
-MD5sum: b52f270f6f5dcdc4593542d3e6dac15a
-SHA1: b125eca70f84b07707160e648bd22af1e73c19a5
-SHA256: 8a97cfffd82e219b3bbabaa58e3fdd7ec919228d1732b54ace43d62dbcaba66f
-SHA512: 2af8b086e20d755f8b6c2e58e69fd62b2cd91838d173eaa0e5b84c4b83507c76bbfc493991a68060b2257f6eed13ff9a6431f4043c786690f9b40af5fb184b46
+Filename: main/libvips-dev_8.10.6-1.1_amd64.deb
+Size: 1334916
+MD5sum: 5383d5bd3fbf793b4321807b1353f983
+SHA1: a0444ef2e32971d63fa5682bb3f7a2763b68d040
+SHA256: a34dd0cdf199f7c7b4601d0ca251ff8277cb4f7e9787a8f72b0bf7d73f683bb5
+SHA512: 5e0a75e2ec0f6d8c2884b11033792c3ce033d61822fcbef7037282e60126d091aabdd6d6cb5d36a40ffc92b828dc2e91c6b0b86ec0050e9b2f7b1eaddec84416
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (dev)
  VIPS is an image processing system designed with efficiency in mind.
@@ -296,19 +296,19 @@ Description: image processing system good for very large ones (dev)
 
 Package: libvips-doc
 Architecture: all
-Version: 8.10.5-1.1
+Version: 8.10.6-1.1
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 3716
-Filename: main/libvips-doc_8.10.5-1.1_all.deb
-Size: 422860
-MD5sum: 4c4afe491b6aa2773598687a7026ac2d
-SHA1: 972d7bc84fdf9222a3208c0b0e4a4bab38075007
-SHA256: 28fea5d43072bba4cdfd40b1560baf6838a99ebaccaf40482ecb4238579eff40
-SHA512: 8e39d6ac2ed9d31962355917384fdbaa9fe98c51ef057b6527e7c7c23cb08bc0873f776d6e2de429a50e104a001937a8de6496400c779704e7b35cbc82e14de4
+Filename: main/libvips-doc_8.10.6-1.1_all.deb
+Size: 422976
+MD5sum: aa7e5cbb55b653d62989d803bdcd110d
+SHA1: 33bedf03f1e3c7956dede56510f2a7d37c9b840c
+SHA256: 41f91bf241df9bc762068f5d799eb420822579052a37eaa50155a2d712b167e5
+SHA512: a5f656fc653e2e2a0363a90ad50c552794a14956c9bdb436f6fec182704f288622098bff8ca5bd4e540a8ddfc979a798d48ddfec55e365f85b88a67c5d32d9d3
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (doc)
  VIPS is an image processing system designed with efficiency in mind.
@@ -329,7 +329,7 @@ Description: image processing system good for very large ones (doc)
 
 Package: libvips-tools
 Architecture: amd64
-Version: 8.10.5-1.1
+Version: 8.10.6-1.1
 Priority: optional
 Section: graphics
 Source: vips
@@ -338,12 +338,12 @@ Installed-Size: 135
 Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0), libvips42 (>> 8.0.2-1~), python3
 Recommends: nip2, libvips-doc
 Suggests: libvips-dev
-Filename: main/libvips-tools_8.10.5-1.1_amd64.deb
-Size: 35196
-MD5sum: 375e4a37496da6d6a7e037ec8b263061
-SHA1: a095672499840f7b45b664ff9fb5937a5748078b
-SHA256: 7879cabedccad96e1b059076adb57ff0308b595a05d6d402fa1bbdd6b193aeda
-SHA512: 32ac1f8e4efeafdb164b567f197448075d2797dc486fa13e077a2f8ce1d5c49368bc6184e42b4973911541a96e0ac8a69626b098c216c5c8a490e8eeae979997
+Filename: main/libvips-tools_8.10.6-1.1_amd64.deb
+Size: 35288
+MD5sum: eadb45b1d92e06a5a3c68f631fcf69c9
+SHA1: 64a54bd4a7bdaa4c6b13a39d5729409cf4341725
+SHA256: d0204585ac7e072818ae42bfb83eea0105e483bd586216e2e25e263a7f6838da
+SHA512: b1f0dd30d79897a7cb06ed524bec5e0b9f5216c07945076e8f0f3ba00018d60a5b2c426b0d684acd0247c2fb4e6fe295909262bd31ff1f17016ba33b15d0f3fe
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (tools)
  VIPS is an image processing system designed with efficiency in mind.
@@ -363,22 +363,22 @@ Description: image processing system good for very large ones (tools)
 
 Package: libvips42
 Architecture: amd64
-Version: 8.10.5-1.1
+Version: 8.10.6-1.1
 Multi-Arch: same
 Priority: optional
 Section: libs
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
-Installed-Size: 3568
+Installed-Size: 3572
 Provides: libvips
 Depends: libc6 (>= 2.29), libcairo2 (>= 1.2.4), libcfitsio8 (>= 3.470~), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.61.2), libgsf-1-114 (>= 1.14.8), libheif1 (>= 1.4.0), libimagequant0 (>= 2.11.10), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmatio9 (>= 1.5.4), libopenexr24 (>= 2.3.0), libopenslide0, liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.40.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), zlib1g (>= 1:1.1.4)
 Recommends: nip2
-Filename: main/libvips42_8.10.5-1.1_amd64.deb
-Size: 1063888
-MD5sum: 7cf20195590b269798bb41847420a81a
-SHA1: 51cca9a18f4f7fc3700b38d08a00b4ffe524ab81
-SHA256: b9930f324d0c36a0c1cffa2f3e62fa2d1d7fea39141076a4e00ce01c6db90b29
-SHA512: 3c015de6687ce0720d053f7b7409dbe64f71ad840de84bf00c21a0ca54717705dcc4b5b53ac1c005d12feb756a9702c15700e8fb56b9ba315ae031ae569f8d60
+Filename: main/libvips42_8.10.6-1.1_amd64.deb
+Size: 1064580
+MD5sum: d101705d34c0e8e7feb4219fb007a2c6
+SHA1: 11f88901bf40e0cdec5a1066f0a0ae3fa85c9cec
+SHA256: 8f04a7688114765cc8c3fe555c02f84a696e2a4167445a8e8992c156e1f992ff
+SHA512: db85bcaa4ab198c71390251f154142d8af88754efa3eda7e44ac0e7ab4367aa684d38b2e88bac5cc58c59fed237a538ef5db31260ea2ed805b467b13d75f92da
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones
  VIPS is an image processing system designed with efficiency in mind.
