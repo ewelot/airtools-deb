@@ -233,19 +233,19 @@ Description: CFITSIO based example programs
 
 Package: gir1.2-vips-8.0
 Architecture: amd64
-Version: 8.10.6-1.1
+Version: 8.10.6-1.2
 Priority: optional
 Section: introspection
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 136
 Depends: gir1.2-glib-2.0, libvips42 (>> 8.0.2-1~)
-Filename: main/gir1.2-vips-8.0_8.10.6-1.1_amd64.deb
-Size: 77656
-MD5sum: ef93dede1549f393c0831e6faa3c427a
-SHA1: 2e06a2579f37148c8b66e0533b174915f6f1088b
-SHA256: 6ccee9f67bbd1d1ca486a627cbffe9da3240efa70b2fd656bd967be72c5730ab
-SHA512: 97347057b1d7d97f9e0ab249ea087da266b9e33caebbf97a6c5b7f728f8beccdbbc5058bff1b1f239b5df0ce5968d48cd827101c2a9c063d36dd04e807c9c63a
+Filename: main/gir1.2-vips-8.0_8.10.6-1.2_amd64.deb
+Size: 77736
+MD5sum: 5acc6de2f4d68a558cd2ed16577f8eac
+SHA1: e2647f16309937b37c36fc5309bd8f2890cc7fda
+SHA256: 91c4e41303db3ef5c478b4c133e6a5803580360def542694c4aaa1d497f707ff
+SHA512: 984a8ebcf3dacd83acb8a4d608cb7d40e859b31d9f480bbb21735439c39943d2c6564a06860c8ae1d562740721784c10c5be2f5c877849af9ada3a9a1bf397f7
 Homepage: https://libvips.github.io/libvips/
 Description: GObject introspection data for VIPS
  VIPS is an image processing system designed with efficiency in mind.
@@ -263,21 +263,21 @@ Description: GObject introspection data for VIPS
 
 Package: libvips-dev
 Architecture: amd64
-Version: 8.10.6-1.1
+Version: 8.10.6-1.2
 Priority: optional
 Section: libdevel
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 8182
-Depends: libvips42 (= 8.10.6-1.1), gir1.2-vips-8.0 (= 8.10.6-1.1), libjpeg-dev, libtiff-dev, zlib1g-dev, fftw3-dev | libfftw3-dev, liblcms2-dev, libpng-dev, libmagickcore-dev, libmagickwand-dev, libfreetype6-dev, libpango1.0-dev, libfontconfig1-dev, libglib2.0-dev, libice-dev, gettext, pkg-config, liborc-0.4-dev, libopenexr-dev, libmatio-dev, libexpat1-dev, libcfitsio-dev, libopenslide-dev, libwebp-dev, libgsf-1-dev, libgif-dev (>= 5.1), libpoppler-glib-dev, librsvg2-dev (>= 2.40.0), libimagequant-dev, libheif-dev
+Depends: libvips42 (= 8.10.6-1.2), gir1.2-vips-8.0 (= 8.10.6-1.2), libjpeg-dev, libtiff-dev, zlib1g-dev, fftw3-dev | libfftw3-dev, liblcms2-dev, libpng-dev, libmagickcore-dev, libmagickwand-dev, libfreetype6-dev, libpango1.0-dev, libfontconfig1-dev, libglib2.0-dev, libice-dev, gettext, pkg-config, liborc-0.4-dev, libopenexr-dev, libmatio-dev, libexpat1-dev, libcfitsio-dev, libopenslide-dev, libwebp-dev, libgsf-1-dev, libgif-dev (>= 5.1), libpoppler-glib-dev, librsvg2-dev (>= 2.40.0), libimagequant-dev, libheif-dev
 Recommends: libvips-doc, libvips-tools
 Suggests: nip2
-Filename: main/libvips-dev_8.10.6-1.1_amd64.deb
-Size: 1359508
-MD5sum: 7499de613b9b8edb5313b756369bb8de
-SHA1: f92801bbedf4f5c6646a986099f7a9fe83747bad
-SHA256: 0a1950471f0282d5cf05d281706df8b3a824913037d137e696bf0571a5d15d78
-SHA512: 44eb86a25107fc27cf563a40e814f2d3ec8a397b4d9f6851cbcd8fbc4a08073ac6b8289565c3366395151049584a326088cb464e46b8d178f1cef1fbed089582
+Filename: main/libvips-dev_8.10.6-1.2_amd64.deb
+Size: 1361756
+MD5sum: 25f672491dd5041842d35e516a8c08f7
+SHA1: a5eabe2eee60d2e15fd892cb27d8655a63f3912e
+SHA256: ffba82fa25bbfff4119abd2c7edec4ddb51f64f7ad743b4295b8c8e43830594c
+SHA512: 6cdd8645c2d0e24a7f63d1e038c633f2db37910deddf193cd07c1e1bdea9a4712b417a618972189c0e73570586acaa2ddda1ec86ba67e85adae784d65e355d3f
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (dev)
  VIPS is an image processing system designed with efficiency in mind.
@@ -296,19 +296,19 @@ Description: image processing system good for very large ones (dev)
 
 Package: libvips-doc
 Architecture: all
-Version: 8.10.6-1.1
+Version: 8.10.6-1.2
 Multi-Arch: foreign
 Priority: optional
 Section: doc
 Source: vips
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Installed-Size: 3755
-Filename: main/libvips-doc_8.10.6-1.1_all.deb
-Size: 475144
-MD5sum: 61207e668fae5aefc810e5be37df1a3e
-SHA1: 7adfb85c4fee1f5be05486c1d054fe3f28b6c921
-SHA256: 06608c0131cf01cc8cfc3d33cc5cc51144fd9b65338760f9819a9de217ea2f86
-SHA512: 006fbfdb1b542ddbb6a094c4a9400973359fe777f518fa0f1ad8014839dbe1d78f7e632aec1dc844cf4b030908ed90bb8af7a2c6ff92c49d4709d5dc7f22cb86
+Filename: main/libvips-doc_8.10.6-1.2_all.deb
+Size: 475216
+MD5sum: 4ca3ecd01e60e2eb5ce1e5b549553bf3
+SHA1: 867813b3b671a79cc7e63c3343802a63df47d1cc
+SHA256: 3e8a2e18a8d875edc3ca8c30ad7f1956c17008767053fd1a7c55119059ff6e9f
+SHA512: 930ed039154c939f7a9fa1dcf845771ea0b9757bc51a509ecf5a5ee59095d1e339cc02a65be77414b35797b0692c8f32aa3c4cb53b92d76649b1fe3b3edc9675
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (doc)
  VIPS is an image processing system designed with efficiency in mind.
@@ -329,7 +329,7 @@ Description: image processing system good for very large ones (doc)
 
 Package: libvips-tools
 Architecture: amd64
-Version: 8.10.6-1.1
+Version: 8.10.6-1.2
 Priority: optional
 Section: graphics
 Source: vips
@@ -338,12 +338,12 @@ Installed-Size: 185
 Depends: libc6 (>= 2.4), libcairo2 (>= 1.2.4), libcfitsio7 (>= 3.450~), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.16.0), libgomp1 (>= 4.2.1), libgsf-1-114 (>= 1.14.8), libhdf5-103, libheif1 (>= 1.0.0), libilmbase23 (>= 2.2.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmatio4 (>= 1.5.4), libopenexr23, libopenslide0, liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.18.0), librsvg2-2 (>= 2.40.0), libtiff5 (>= 4.0.3), libvips42 (>> 8.0.2-1~), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4), python3
 Recommends: nip2, libvips-doc
 Suggests: libvips-dev
-Filename: main/libvips-tools_8.10.6-1.1_amd64.deb
-Size: 88440
-MD5sum: 9ed3b36070381918c7ee0e1c61a4bd84
-SHA1: f597aa83d016a660a434018c5f28cafb2409bedc
-SHA256: 0d32857a1b98bb9ab66166ac4fe4011990b9a2e44840f990ee4bf1b8887ea446
-SHA512: e36e3b07db38f7b420cb203c96b0edb56dece913dcdc519672b8a2f1107fbdb3503c18540fd6c98291573e4bad1d1673a8ae4315f65c81138c8b7fd2d4cddee9
+Filename: main/libvips-tools_8.10.6-1.2_amd64.deb
+Size: 88520
+MD5sum: 9760c4602f28a1f5936b529a25fa6272
+SHA1: 16c6eb07026438362447b654cf971b92bb6ab182
+SHA256: 898a6688960c5d7c15b6a91398e0b4b47267d53900231683da9f32aaadb96797
+SHA512: ba80789398c7544ca42b2402cd01b0346b10704c38b193c246ba1affdca15200b79ec0194e8a2d286ea71ef00f266894bf1bcc15fbd8e4d802ba6244db4f9b70
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones (tools)
  VIPS is an image processing system designed with efficiency in mind.
@@ -363,7 +363,7 @@ Description: image processing system good for very large ones (tools)
 
 Package: libvips42
 Architecture: amd64
-Version: 8.10.6-1.1
+Version: 8.10.6-1.2
 Multi-Arch: same
 Priority: optional
 Section: libs
@@ -373,12 +373,12 @@ Installed-Size: 3691
 Provides: libvips
 Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libcfitsio7 (>= 3.450~), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgif7 (>= 5.1), libglib2.0-0 (>= 2.39.91), libgomp1 (>= 4.2.1), libgsf-1-114 (>= 1.14.8), libhdf5-103, libheif1 (>= 1.3.2), libilmbase23 (>= 2.2.1), libimagequant0 (>= 2.11.10), libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmagickcore-6.q16-6 (>= 8:6.9.10.2), libmatio4 (>= 1.5.4), libopenexr23, libopenslide0, liborc-0.4-0 (>= 1:0.4.25), libpango-1.0-0 (>= 1.22.0), libpangoft2-1.0-0 (>= 1.14.0), libpng16-16 (>= 1.6.2-1), libpoppler-glib8 (>= 0.22.1), librsvg2-2 (>= 2.40.0), libstdc++6 (>= 5.2), libtiff5 (>= 4.0.3), libwebp6 (>= 0.5.1), libwebpdemux2 (>= 0.5.1), libwebpmux3 (>= 0.6.1-2), libxml2 (>= 2.6.27), zlib1g (>= 1:1.1.4)
 Recommends: nip2
-Filename: main/libvips42_8.10.6-1.1_amd64.deb
-Size: 1129080
-MD5sum: 95930819173577b672b168c5e02ec06e
-SHA1: 6bb197f5b1c4ff09494e29faff1255a88379f5b8
-SHA256: 6000359ad52906039dbaf5810fddf46ef8ccfc4e8d36ef9e5804ec1f0c0852f6
-SHA512: f1469a5f4e7fd3fc606755a13d5bcb77cf0a389fca0fc55d1a05ae06b9ef2b244fc47c05fac2537988317ce8aa38be669f5b5ac15fcf303dc63c2f829b7c519c
+Filename: main/libvips42_8.10.6-1.2_amd64.deb
+Size: 1129540
+MD5sum: f7604efc0908f03476590f9f1f66b9fc
+SHA1: bcef802dfd3f27f72b3912bdcf576e2852e088e7
+SHA256: 801f01c99702b6be761c02b1bbf0b865d5957c2cb5b5f6ac3411358cfce6c1df
+SHA512: 269853a344810a5bb99622b32f81593fe0250d2a3271baba4fcd47eb30e753ef724df7c4cb9185fafc854746c963788517ea10102ac86910db62ae015b9c8a79
 Homepage: https://libvips.github.io/libvips/
 Description: image processing system good for very large ones
  VIPS is an image processing system designed with efficiency in mind.
