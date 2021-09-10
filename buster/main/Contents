@@ -158,14 +158,6 @@ usr/share/doc/airtools/README.md			    airtools
 usr/share/doc/airtools/changelog.Debian.gz		    airtools
 usr/share/doc/airtools/copyright			    airtools
 usr/share/doc/airtools/images/.comments/noimage.png.xml	    airtools-doc
-usr/share/doc/airtools/images/.unison..comments.e3618bb498417f0a4a97836acbc99d63.unison.tmp/noimage.png.xml airtools-doc
-usr/share/doc/airtools/images/.unison.airtools-gui.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.comet_tab.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.imred_tab.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.misc_tab.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.xubuntu-vm-annotated.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.xubuntu_2004.png.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
-usr/share/doc/airtools/images/.unison.xubuntu_2004.xcf.e3618bb498417f0a4a97836acbc99d63.unison.tmp.gz airtools-doc
 usr/share/doc/airtools/images/airtools-gui.png		    airtools-doc
 usr/share/doc/airtools/images/bgvar.png			    airtools-doc
 usr/share/doc/airtools/images/comet_tab.png		    airtools-doc
