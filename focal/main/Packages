@@ -61,11 +61,11 @@ Installed-Size: 2320
 Depends: imagemagick, graphicsmagick, netpbm, gnuplot-x11, librsvg2-bin, exiv2, potrace, plplot12-driver-cairo | plplot-driver-cairo, exiftool, bc, curl, wget, gawk, yad, parallel, pigz, dstat, mousepad, feh, libvips-tools (>= 8.10.5), xdotool, python3, python3-numpy, python3-ephem, python3-pyvips, cfitsio-examples (>= 0.3), libcfitsio-bin, xpa-tools, wcstools, fitsverify, default-jre-headless, openjfx, libc6 (>= 2.29), libjpeg8 (>= 8c), libnetpbm10
 Suggests: airtools
 Filename: main/airtools-core_4.1.4-1_amd64.deb
-Size: 570384
-MD5sum: 23a16a50b8de1f811be4423afb186a42
-SHA1: 30c6798360b81d3cfd5d31df3b425789192c15cd
-SHA256: be6bcabaa59538a01e3cdf4422b176eff5f70a622064d16caf01e3749f556783
-SHA512: dd38a94aa40a0b75475d1ef65321303787e66fd2f30ac4d458c4313f7cafafc3955b0db0699eeca041dc895d629c1426910d536c71b3cb7e6de2a7080262bf54
+Size: 570296
+MD5sum: c048e3c6fc24195eac4130e83cb91776
+SHA1: bef356b547a411504db53a575a5f0b5d17e0a1a7
+SHA256: 228a67a39b9b947835344f9f2c627dabf66f86a71edc73cb50de753c253c0749
+SHA512: 990a1397c4df87a0fa5633de37e07231ad6bdb3d8474d63744070416721dde60b514a6b640e3d454c9c54ef0ffbafaf3af56c01ca7165c52c22bc2374302ca9a
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet - Core components
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
@@ -129,13 +129,13 @@ Priority: optional
 Section: doc
 Source: airtools
 Maintainer: Thomas Lehmann <t_lehmann@freenet.de>
-Installed-Size: 2240
+Installed-Size: 2909
 Filename: main/airtools-doc_4.1.4-1_all.deb
-Size: 2014504
-MD5sum: d43d7e2f59f22889fbd7aeb7a195da33
-SHA1: 8528ee81ed7439b0c18c38e962dac804386a9cef
-SHA256: 82e2413cf53331292b50314e06c5914ba8ca6328fe4560d074bf3d39917412ae
-SHA512: e6305173a7cc2f79f5417d89334bb0068205dd911a784d4aae833e447cd54b1b816ec96dbbca87d69492fac04163ea662a2fd6c0a1bd84ffb17ba0d595e87d02
+Size: 2579596
+MD5sum: 6317133c3ed55d1882f78f6ed5471b86
+SHA1: 43e4394b1644bafc0bf814eb18932ba9a3fe40d8
+SHA256: 4b967901f8b99b728fab06194e1f15bdef5014eaa3073456c6f06c36ac90700f
+SHA512: 2c4a879e00f536e1b05de4f44e4223b49845a2a1247f72bcad96a707f441b89caa512c863c5282783ff8b33e8fd46b892d0e2d3e68dfc50a698b344d6b4f01ee
 Homepage: https://github.com/ewelot/airtools
 Description: Astronomical Image Reduction TOOLSet - Documentation
  AIRTOOLS is a collection of programs to aim at astronomical image reduction
