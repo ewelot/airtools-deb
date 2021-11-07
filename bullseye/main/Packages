@@ -1,0 +1,21 @@
+Package: findorb
+Architecture: amd64
+Version: 0.1+git20211103-1
+Priority: optional
+Section: science
+Maintainer: Thomas Lehmann <t.lehmann@mailbox.org>
+Installed-Size: 2341
+Depends: libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 4.3), libncursesw6 (>= 6), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6)
+Filename: main/findorb_0.1+git20211103-1_amd64.deb
+Size: 627396
+MD5sum: f51c14adeab4cc29ba5d67b9b3472ea7
+SHA1: 6d13c253cf0659f98c2998b2bbf55a1bb782309b
+SHA256: 0f9f72c6b2262cfc1c5aac7fedeee255a889e5e3ad212d087c0ab83f8a9656b1
+SHA512: 7d74dacbb954c41624ccf813e06483852f7b74400181ccecc9493c5f14902f9324b7d9f11da7dc95881c8f4d285bc96c0e5978b61960c4338e7d9fa8f66a0a4b
+Homepage: https://www.projectpluto.com/find_orb.htm
+Description: Find orbit by analyzing astrometric data of solar system bodies
+ Find_Orb can take a set of observations of an asteroid, comet, or natural or
+ artificial satellite, given in the MPC (Minor Planet Center) format, the
+ newer ADES astrometric format , and/or the NEODyS or AstDyS formats, and find
+ the corresponding orbit.
+
