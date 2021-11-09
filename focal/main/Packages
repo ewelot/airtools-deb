@@ -304,18 +304,18 @@ Description: CFITSIO based example programs
 
 Package: findorb
 Architecture: amd64
-Version: 0.1+git20211103-1
+Version: 0.1+git20211103-2
 Priority: optional
 Section: science
 Maintainer: Thomas Lehmann <t.lehmann@mailbox.org>
 Installed-Size: 2383
-Depends: libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 4.3), libncursesw6 (>= 6), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6)
-Filename: main/findorb_0.1+git20211103-1_amd64.deb
-Size: 634028
-MD5sum: 719ce2c6645532ac7da094122eb39a61
-SHA1: 60180b4b18d472270836dbdf7388f39b8cfdfb13
-SHA256: 43b7179dc596b38cbed39b28e3b03262504643b22b0c23d592ca4b448b31f7f0
-SHA512: 5416632f49e104ed3c93ebb7cc04ab04151c5fdf16c32ef431d5af5454ce65fe281611d5bfb516914c56c26e3b33c385c5af7c5b3012c85d6b65ef092f737e44
+Depends: xterm, curl, libc6 (>= 2.29), libcurl3-gnutls (>= 7.16.2), libgcc-s1 (>= 4.3), libncursesw6 (>= 6), libstdc++6 (>= 4.1.1), libtinfo6 (>= 6)
+Filename: main/findorb_0.1+git20211103-2_amd64.deb
+Size: 634248
+MD5sum: b9b82eb9cc538a0f053654412914d59b
+SHA1: 2966e3c4d4ae0c8ba7f1013d998043308b189c35
+SHA256: 0c15ce8f4d899d466dfb8c0ea01683d087954fa7195bdf85f89be28953de7d76
+SHA512: 2680f0b21824be01e77f2d25d656078dbc3025ef7dd1fe4ae89cdce8fa4009a074413ce8598ef57f58603bd3dd2259c79912a492990212a922c9673dd154acf4
 Homepage: https://www.projectpluto.com/find_orb.htm
 Description: Find orbit by analyzing astrometric data of solar system bodies
  Find_Orb can take a set of observations of an asteroid, comet, or natural or
